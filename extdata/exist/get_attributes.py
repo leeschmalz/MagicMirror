@@ -1,7 +1,7 @@
 import requests
 from pprint import pprint
 
-TOKEN = "3e917968331b2a09c0e8f3e808af2aa7500414a2" # REDACTION MARKER
+TOKEN = "" # REDACTION MARKER
 
 url = 'https://exist.io/api/2/attributes/with-values/'
 
