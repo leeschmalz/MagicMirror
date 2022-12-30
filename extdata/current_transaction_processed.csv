@@ -1,0 +1,638 @@
+date,description,amount,category.name,category.parentName
+2022-12-16,MARIANOS 522,-22.12,Groceries,Food & Dining
+2022-12-13,CAPITAL ONE MEMBER FEE,-95.0,Bank Fee,Fees & Charges
+2022-12-13,OPS* SOMERSET PLACE 2,-10.0,Laundry,Personal Care
+2022-12-13,OPS* SOMERSET PLACE 2,-10.0,Laundry,Personal Care
+2022-12-13,Amazon,-11.91,Venmo Payment,Misc Expenses
+2022-12-12,Amazon web services,-0.48,AWS,Misc Expenses
+2022-12-11,Amazon,-28.65,Venmo Payment,Misc Expenses
+2022-12-11,TARGET        00023739,-33.17,Shopping,Root
+2022-12-11,ALDI 40003 CHICAGO,-69.47,Groceries,Food & Dining
+2022-12-11,Transfer To CORTRUST BANK NATIONAL ASSOCIATION,-112.0,Transfer,Root
+2022-12-10,UBER TRIP,-38.96,Ride Share,Auto & Transport
+2022-12-09,MARIANOS 522,-50.75,Groceries,Food & Dining
+2022-12-09,Mini golf,28.0,Income,Root
+2022-12-08,TST* Smugglers Cove Adven,-168.7,Alcohol & Bars,Food & Dining
+2022-12-08,TARGET        00023630,106.49,Income,Root
+2022-12-08,Daily Cash Adjustment,-1.06,Transfer,Root
+2022-12-08,Golf,56.0,Income,Root
+2022-12-08,Neil Schmalz Paid Lee Schmalz,28.0,Income,Root
+2022-12-07,APPLE.COM/BILL,-0.99,Electronics & Software,Shopping
+2022-12-06,TARGET.COM  *,-133.09,Shopping,Root
+2022-12-05,LYFT   RIDE SAT 2PM,-37.49,Ride Share,Auto & Transport
+2022-12-05,UBER   TRIP,-37.07,Ride Share,Auto & Transport
+2022-12-04,TST* Billy Goat Tavern -,-15.0,Restaurants,Food & Dining
+2022-12-04,TST* Billy Goat Tavern -,-22.0,Restaurants,Food & Dining
+2022-12-03,VENTRA MOBILE,-5.0,Public Transportation,Auto & Transport
+2022-12-01,MARIANOS 522,-11.91,Groceries,Food & Dining
+2022-12-01,MARIANOS 522,-39.86,Groceries,Food & Dining
+2022-11-30,MARIANOS 522,-15.66,Groceries,Food & Dining
+2022-11-29,MARIANOS 522,-25.6,Groceries,Food & Dining
+2022-11-28,2TWENTY2 TAVERN,-38.0,Restaurants,Food & Dining
+2022-11-28,Cell phone Aug - Dec pt 2,-78.0,Mobile Phone,Bills & Utilities
+2022-11-28,Cell phone Aug - Dec pt 1,-132.0,Mobile Phone,Bills & Utilities
+2022-11-27,ACT*Chicago Park Distr,-43.72,Entertainment,Root
+2022-11-27,TST* Roberts Pizza and D,-118.85,Restaurants,Food & Dining
+2022-11-27,MARIANOS 522,-9.67,Groceries,Food & Dining
+2022-11-27,VENTRA MOBILE,-5.0,Public Transportation,Auto & Transport
+2022-11-25,MARIANOS 522,-27.86,Groceries,Food & Dining
+2022-11-24,1193 GREAT CLIPS AT LI,-26.0,Hair,Personal Care
+2022-11-20,SUMMER HOUSE SANTAMONICA,-264.16,Restaurants,Food & Dining
+2022-11-20,MARIANOS 522,-21.64,Groceries,Food & Dining
+2022-11-19,ALDI 40003,-130.14,Groceries,Food & Dining
+2022-11-19,Summer house,132.0,Income,Root
+2022-11-17,OPS* SOMERSET PLACE 2,-30.0,Laundry,Personal Care
+2022-11-16,MARIANOS 522,-29.88,Groceries,Food & Dining
+2022-11-15,EXXONMOBIL    47313788,-4.19,Gas & Fuel,Auto & Transport
+2022-11-15,ACH Deposit Internet transfer from account ending in 4722,23.69,Transfer,Root
+2022-11-14,CHIPOTLE 0555,-17.7,Fast Food,Food & Dining
+2022-11-13,MOUNTAIN LAKE LLC,-84.55,Vacation,Travel
+2022-11-13,WALKABOUT OUTFITTER  BLA,-29.48,Shopping,Root
+2022-11-13,SQ *EASTERN DIVIDE BREWIN,-51.42,Restaurants,Food & Dining
+2022-11-11,Shirt,-10.0,Clothing,Shopping
+2022-11-10,CULTURE GRILL AND CANTINA,-49.08,Restaurants,Food & Dining
+2022-11-10,SPEEDWAY 09224 NELSONVILL,-46.76,Gas & Fuel,Auto & Transport
+2022-11-10,SPEEDWAY 09224 NELSONVILL,-2.69,Gas & Fuel,Auto & Transport
+2022-11-10,APPLE.COM/BILL,-0.99,Electronics & Software,Shopping
+2022-11-09,SPEEDWAY 07675 I-65 AND S,-77.24,Gas & Fuel,Auto & Transport
+2022-11-08,JAMES AND SONS - CHICAGO,-1466.56,Hotel,Travel
+2022-11-08,VENTRA MOBILE,-5.0,Public Transportation,Auto & Transport
+2022-11-06,MARIANOS 522,-9.77,Groceries,Food & Dining
+2022-11-05,Transfer To CORTRUST BANK NATIONAL ASSOCIATION,-389.5,Transfer,Root
+2022-11-04,VA Airbnb,248.0,Income,Root
+2022-11-03,MARIANOS 522,-18.26,Groceries,Food & Dining
+2022-10-28,ACH Deposit Internet transfer from account ending in 4722,125.58,Transfer,Root
+2022-10-26,Hot tub time machine 1&2,9.0,Income,Root
+2022-10-25,MARIANOS 522,-4.55,Groceries,Food & Dining
+2022-10-25,SHEETZ 0635   00006353,-14.06,Gas & Fuel,Auto & Transport
+2022-10-24,FRICKERS PERRYSBURG 10,-46.83,Restaurants,Food & Dining
+2022-10-24,PENN STATE UNIVERSITY,-15.0,Restaurants,Food & Dining
+2022-10-23,SQ *EVENT MANAGEMENT SOLU,-24.0,Alcohol & Bars,Food & Dining
+2022-10-23,OHIO TURNPIKE,-15.0,Travel,Root
+2022-10-23,SQ *EVENT MANAGEMENT SOLU,-28.0,Alcohol & Bars,Food & Dining
+2022-10-23,SHANDYGAFF,-12.0,Alcohol & Bars,Food & Dining
+2022-10-23,SQ *EVENT MANAGEMENT SOLU,-24.0,Alcohol & Bars,Food & Dining
+2022-10-23,SNACK* PENN KEBAB,-24.38,Fast Food,Food & Dining
+2022-10-23,SQ *EVENT MANAGEMENT SOLU,-28.0,Alcohol & Bars,Food & Dining
+2022-10-23,RAISING CANE'S 0732,-24.2,Restaurants,Food & Dining
+2022-10-21,BP#9793142SNAPPY 3,-66.43,Gas & Fuel,Auto & Transport
+2022-10-21,ITR EASTPOINT TOLLS,-3.6,Travel,Root
+2022-10-21,BP#9793142SNAPPY 3 QPS,-2.88,Gas & Fuel,Auto & Transport
+2022-10-21,CHIPOTLE 2408,-10.3,Fast Food,Food & Dining
+2022-10-21,ITR CONCESSION COMPANY,-3.5,Fast Food,Food & Dining
+2022-10-21,SKYWAY CONCESSIONS,-5.9,Restaurants,Food & Dining
+2022-10-19,LWKS SOFTWARE LTD,-23.99,Electronics & Software,Shopping
+2022-10-18,JAMES AND SONS - CHICAGO,-325.0,Hotel,Travel
+2022-10-17,TST* URBANSPACE - THE PER,-20.88,Restaurants,Food & Dining
+2022-10-17,CHIPOTLE 0308,-14.86,Fast Food,Food & Dining
+2022-10-17,PUNCH BOWL SOCIAL CHICAGO,-25.35,Alcohol & Bars,Food & Dining
+2022-10-17,PUNCH BOWL SOCIAL CHICAGO,-39.24,Alcohol & Bars,Food & Dining
+2022-10-17,PUNCH BOWL SOCIAL CHICAGO,-74.58,Alcohol & Bars,Food & Dining
+2022-10-16,On Inc,-154.34,Clothing,Shopping
+2022-10-16,MARIANOS 522,-18.11,Groceries,Food & Dining
+2022-10-16,ACH Deposit Internet transfer from account ending in 4722,72.63,Transfer,Root
+2022-10-16,VENTRA MOBILE,-5.0,Public Transportation,Auto & Transport
+2022-10-16,VENTRA VENDING 02702,-3.0,Public Transportation,Auto & Transport
+2022-10-16,TARGET        00023739,-41.88,Shopping,Root
+2022-10-14,VENTRA MOBILE,-5.0,Public Transportation,Auto & Transport
+2022-10-13,MEDPARK MANAGEMENT INC,-10.5,Parking,Auto & Transport
+2022-10-11,OPS* SOMERSET PLACE 2,-5.0,Laundry,Personal Care
+2022-10-11,OPS* SOMERSET PLACE 2,-20.0,Laundry,Personal Care
+2022-10-10,MARIANOS 522,-17.07,Groceries,Food & Dining
+2022-10-09,MARIANOS 522,-28.1,Groceries,Food & Dining
+2022-10-09,MARIANOS 522,-7.99,Groceries,Food & Dining
+2022-10-09,CHIPOTLE 2408,-10.3,Fast Food,Food & Dining
+2022-10-08,VENTRA MOBILE,-5.0,Public Transportation,Auto & Transport
+2022-10-05,VENTRA MOBILE,-5.0,Public Transportation,Auto & Transport
+2022-10-04,TST* Millennium Hall,-28.84,Restaurants,Food & Dining
+2022-10-03,TST* Roberts Pizza and D,-218.85,Restaurants,Food & Dining
+2022-10-03,LINCOLN STATION,-28.25,Service & Parts,Auto & Transport
+2022-10-03,Lee Schmalz Paid Murphy Hanson,-10.0,Restaurants,Food & Dining
+2022-10-02,ANNUAL MEMBERSHIP FEE,-95.0,Service Fee,Fees & Charges
+2022-10-02,you know what ,44.0,Income,Root
+2022-10-02,Mimosas,88.0,Income,Root
+2022-09-30,FC 12FIFTEEN,-4343.85,Transfer,Root
+2022-09-30,Speedy turtles,-94.0,Vacation,Travel
+2022-09-28,MARIANOS #522,-6.06,Groceries,Food & Dining
+2022-09-26,SQ *EMPIRICAL BREWERY,-16.8,Alcohol & Bars,Food & Dining
+2022-09-26,Jul-18 to sep-25 money,-506.18,Transfer,Root
+2022-09-26,Happy hour ,22.0,Income,Root
+2022-09-25,FAT CAT RESTAURANT 24801972268091570000080,-84.83,Restaurants,Food & Dining
+2022-09-23,1193 GREAT CLIPS AT LI,-26.0,Hair,Personal Care
+2022-09-23,VENTRA MOBILE,-5.0,Public Transportation,Auto & Transport
+2022-09-19,EPC*FORTNITE,-8.81,Entertainment,Root
+2022-09-19,LWKS SOFTWARE LTD,-23.99,Electronics & Software,Shopping
+2022-09-16,MCDONALD'S F4588,-8.07,Fast Food,Food & Dining
+2022-09-12,PICK ME UP CAFE,-88.48,Restaurants,Food & Dining
+2022-09-12,SQ *METROPOLITAN BREWING,-8.4,Alcohol & Bars,Food & Dining
+2022-09-11,Brunch,37.24,Restaurants,Food & Dining
+2022-09-11,Lee Schmalz Paid Nick Dart,-7.0,Public Transportation,Auto & Transport
+2022-09-11,Happy hour ,13.0,Income,Root
+2022-09-08,UBER   TRIP,-37.52,Ride Share,Auto & Transport
+2022-09-08,UBER   TRIP,-50.94,Ride Share,Auto & Transport
+2022-09-07,UBER   TRIP,-43.18,Ride Share,Auto & Transport
+2022-09-07,UBER   TRIP,-24.95,Ride Share,Auto & Transport
+2022-09-05,PICK ME UP CAFE,-59.84,Restaurants,Food & Dining
+2022-09-05,ALBA AUTO SERVICES,-80.0,Service & Parts,Auto & Transport
+2022-09-01,ULTRASIGNUP,-107.25,Sports,Health & Fitness
+2022-08-31,AIRBNB  HMNDBBFX3S,-495.95,Hotel,Travel
+2022-08-29,MARIANOS #522,-9.1,Groceries,Food & Dining
+2022-08-27,MARIANOS #522,-13.65,Groceries,Food & Dining
+2022-08-22,Beers,-14.0,Alcohol & Bars,Food & Dining
+2022-08-19,LWKS SOFTWARE LTD,-23.99,Electronics & Software,Shopping
+2022-08-15,HAZELWOOD FOOD & DRINK -T,-78.59,Restaurants,Food & Dining
+2022-08-15,HOLIDAY STATIONS 0515,-53.86,Gas & Fuel,Auto & Transport
+2022-08-12,BP#9265216K & J FOODS,-52.11,Gas & Fuel,Auto & Transport
+2022-08-11,MARIANOS #522,-11.69,Groceries,Food & Dining
+2022-08-09,EPC*EPIC GAMES STORE,-26.45,Entertainment,Root
+2022-08-08,2WRIGLEY FIELD,-31.53,Alcohol & Bars,Food & Dining
+2022-08-08,2WRIGLEY FIELD,-29.27,Alcohol & Bars,Food & Dining
+2022-08-05,MARIANOS #522,-31.5,Groceries,Food & Dining
+2022-08-01,POOR PHILS SHELL BAR,-99.05,Gas & Fuel,Auto & Transport
+2022-08-01,TST* SHORE CLUB CHICAGO,-110.4,Restaurants,Food & Dining
+2022-07-30,Beer,-8.0,Alcohol & Bars,Food & Dining
+2022-07-28,Ski u mah,-76.0,Sports,Health & Fitness
+2022-07-23,TST* Dock at Montrose Bea,-77.23,Restaurants,Food & Dining
+2022-07-22,MARIANOS #522,-26.96,Groceries,Food & Dining
+2022-07-19,LWKS SOFTWARE LTD,-23.99,Electronics & Software,Shopping
+2022-07-17,June 4- July 17,58.69,Income,Root
+2022-07-11,PROGRESSIVE *INSURANCE,-614.0,Auto Insurance,Auto & Transport
+2022-07-11,Bar Cargo,-123.93,Alcohol & Bars,Food & Dining
+2022-07-10,Pizza and brews,54.0,Restaurants,Food & Dining
+2022-07-10,Riverside drinks,-56.0,Alcohol & Bars,Food & Dining
+2022-07-07,MARIANOS #522,-3.84,Groceries,Food & Dining
+2022-07-04,AMTRAK .COM XXXXXXXXXX,-14.0,Travel,Root
+2022-07-04,UBER   TRIP,-24.96,Ride Share,Auto & Transport
+2022-07-04,Brunch,-24.0,Restaurants,Food & Dining
+2022-07-04,Train,-20.0,Public Transportation,Auto & Transport
+2022-07-04,"April, may, June, July cell",-168.0,Mobile Phone,Bills & Utilities
+2022-06-27,AMTRAK .COM XXXXXXXXXX,-114.0,Travel,Root
+2022-06-27,TST* Dock at Montrose Bea,-71.71,Restaurants,Food & Dining
+2022-06-25,VENTRA VENDING 13412,-3.0,Public Transportation,Auto & Transport
+2022-06-25,FOREMOST LIQUORS,-23.58,Alcohol & Bars,Food & Dining
+2022-06-24,VENTRA ACCOUNT,-2.5,Public Transportation,Auto & Transport
+2022-06-20,FOREMOST LIQUORS,-20.85,Alcohol & Bars,Food & Dining
+2022-06-17,MARIANOS #522,-20.63,Groceries,Food & Dining
+2022-06-15,FOXRENTACAR XXXXXXXXXX,-168.96,Rental Car & Taxi,Travel
+2022-06-13,SQ *COFFEE ON THE ROCKS O,-17.97,Coffee Shops,Food & Dining
+2022-06-13,TST* Claires Restaurant,-73.36,Restaurants,Food & Dining
+2022-06-10,HIGH COUNTRY BREWERY,-5.0,Alcohol & Bars,Food & Dining
+2022-06-10,HIGH COUNTRY BREWERY,-54.35,Alcohol & Bars,Food & Dining
+2022-06-09,LONIGANS SALOON & GRILL,-50.18,Restaurants,Food & Dining
+2022-06-09,UBER   TRIP,-74.99,Ride Share,Auto & Transport
+2022-06-09,UBER   TRIP,-26.99,Ride Share,Auto & Transport
+2022-06-08,UBER   TRIP,-54.93,Ride Share,Auto & Transport
+2022-06-08,POKEWORKS HARVARD SQUARE,-5.35,Restaurants,Food & Dining
+2022-06-08,COURTYARD BY MARRIOTT,-3.0,Hotel,Travel
+2022-06-07,UBER   TRIP,-5.25,Ride Share,Auto & Transport
+2022-06-07,PRAIRIE TAP BAR ORD,-35.94,Alcohol & Bars,Food & Dining
+2022-06-07,TOM-Nu Burger,-18.19,Fast Food,Food & Dining
+2022-06-07,UBER   TRIP,-31.9,Ride Share,Auto & Transport
+2022-06-06,UBER   TRIP,-39.43,Ride Share,Auto & Transport
+2022-06-04,More chum,-167.76,Charity,Gifts & Donations
+2022-05-31,BP#9265216K & J FOODS,-50.25,Gas & Fuel,Auto & Transport
+2022-05-30,SURF SIDE BAR & GRILL,-91.12,Restaurants,Food & Dining
+2022-05-29,Wedding tips,-20.0,Gift,Gifts & Donations
+2022-05-28,OUR AMERICAN KITCHEN,-16.84,Restaurants,Food & Dining
+2022-05-27,CHIPOTLE ONLINE,-9.18,Fast Food,Food & Dining
+2022-05-25,Brunch - parking,-40.0,Parking,Auto & Transport
+2022-05-23,TST* OLD CROW WRIGLEYVILL,-43.69,Restaurants,Food & Dining
+2022-05-22,Brunch,-85.0,Restaurants,Food & Dining
+2022-05-21,Hiroshima,-35.0,Restaurants,Food & Dining
+2022-05-20,TARGET        00023739,-84.28,Shopping,Root
+2022-05-20,ALDI 40003,-141.64,Groceries,Food & Dining
+2022-05-16,TST* DOCK AT MONTROSE BEA,-69.11,Restaurants,Food & Dining
+2022-05-14,Coors,-22.0,Clothing,Shopping
+2022-05-12,MARIANOS #522,-25.52,Groceries,Food & Dining
+2022-05-09,KIRKWOOD BAR + GRILL,-27.26,Restaurants,Food & Dining
+2022-05-09,TST* Cubby Bear Lounge,-9.86,Alcohol & Bars,Food & Dining
+2022-05-08,Beer,-7.0,Alcohol & Bars,Food & Dining
+2022-05-03,RECREATION.GOV,-2.0,Travel,Root
+2022-05-03,RECREATION.GOV,-10.0,Travel,Root
+2022-05-03,RECREATION.GOV,-8.0,Travel,Root
+2022-05-02,TARGET 00032219,-42.99,Shopping,Root
+2022-05-02,RECREATION.GOV,-35.0,Travel,Root
+2022-05-02,FAT CAT RESTAURANT,-85.42,Restaurants,Food & Dining
+2022-05-01,your birthday present :p,60.63,Income,Root
+2022-05-01,Spending through May 1,-58.61,Transfer,Root
+2022-04-27,Dinner,-31.0,Restaurants,Food & Dining
+2022-04-26,TARGET        00023739,-35.45,Shopping,Root
+2022-04-25,MARIANOS #522,-57.96,Groceries,Food & Dining
+2022-04-25,WALGREENS #3698,-1.12,Pharmacy,Health & Fitness
+2022-04-22,MARIANOS #522,-18.51,Groceries,Food & Dining
+2022-04-22,FOREMOST LIQUORS,-23.58,Alcohol & Bars,Food & Dining
+2022-04-17,Drinks and snacks,30.0,Restaurants,Food & Dining
+2022-04-17,Drinks + food,30.0,Income,Root
+2022-04-14,FOREMOST LIQUORS,-42.75,Alcohol & Bars,Food & Dining
+2022-04-11,April 1-10 spending,116.96,Income,Root
+2022-04-11,SLAINTE,-29.24,Restaurants,Food & Dining
+2022-04-11,CKE*FOREST PARK TAP ROOM,-26.8,Alcohol & Bars,Food & Dining
+2022-04-11,CHIPOTLE 1740,-11.06,Fast Food,Food & Dining
+2022-04-04,TST* BRAVO RESTAURANTS GR,-59.17,Restaurants,Food & Dining
+2022-04-04,FOREMOST LIQUORS,-42.75,Alcohol & Bars,Food & Dining
+2022-04-02,TST* BRAVO RESTAURANTS GR,-73.53,Restaurants,Food & Dining
+2022-03-31,Toot munch ball,-75.0,Restaurants,Food & Dining
+2022-03-28,Narrow,-45.5,Restaurants,Food & Dining
+2022-03-28,Holiday Stationstore,-51.89,Gas & Fuel,Auto & Transport
+2022-03-23,Bills,-64.48,Bills & Utilities,Root
+2022-03-23,OPS* SOMERSET PLACE 2,-30.0,Laundry,Personal Care
+2022-03-22,Intuit TurboTax,-187.48,Taxes,Root
+2022-03-20,Not Chicago bar,-15.0,Restaurants,Food & Dining
+2022-03-20,Brunch,-20.0,Restaurants,Food & Dining
+2022-03-20,Beers,-19.0,Alcohol & Bars,Food & Dining
+2022-03-19,Beers and burgers,-60.0,Restaurants,Food & Dining
+2022-03-19,Za,-42.0,Restaurants,Food & Dining
+2022-03-19,FOREMOST LIQUORS,-23.58,Alcohol & Bars,Food & Dining
+2022-03-18,FuboTV Inc,-1.0,Television,Bills & Utilities
+2022-03-18,FANTASYGRADE.CO,-20.0,Alcohol & Bars,Food & Dining
+2022-03-15,Feb and March cell ,-84.0,Mobile Phone,Bills & Utilities
+2022-03-15,KWIK TRIP XXXXXXXXXX,-4.89,Gas & Fuel,Auto & Transport
+2022-03-14,SPEEDWAY 04794,-31.11,Gas & Fuel,Auto & Transport
+2022-03-14,SPEEDWAY 04794,-6.97,Gas & Fuel,Auto & Transport
+2022-03-10,Gas,-21.0,Gas & Fuel,Auto & Transport
+2022-03-10,gas + drank,-49.0,Alcohol & Bars,Food & Dining
+2022-03-08,Josh shirt,-20.0,Vacation,Travel
+2022-03-08,Food,-43.0,Food & Dining,Root
+2022-03-07,VENTRA VENDING 02501,-10.0,Public Transportation,Auto & Transport
+2022-03-05,FOREMOST LIQUORS,-23.58,Alcohol & Bars,Food & Dining
+2022-03-01,PADDLE.NET* LIT N LAT,-49.0,Kids Activities,Kids
+2022-02-23,VENTRA VENDING 02502,-5.0,Public Transportation,Auto & Transport
+2022-02-19,FOREMOST LIQUORS,-20.27,Alcohol & Bars,Food & Dining
+2022-02-18,VENTRA VENDING 04504,-3.0,Public Transportation,Auto & Transport
+2022-02-10,VENTRA VENDING 04504 24445002041000664616257,-3.0,Public Transportation,Auto & Transport
+2022-02-05,FOREMOST LIQUORS,-22.48,Alcohol & Bars,Food & Dining
+2022-02-03,Amazon web services,-0.48,AWS,Misc Expenses
+2022-02-02,VENTRA VENDING 02501 24445002033000659894026,-5.0,Public Transportation,Auto & Transport
+2022-02-02,Frontier Air,147.96,Air Travel,Travel
+2022-02-02,Frontier Air,-147.96,Air Travel,Travel
+2022-02-02,Frontier Air,-115.96,Air Travel,Travel
+2022-02-02,FOXRENTACAR,-343.57,Vacation,Travel
+2022-02-02,Frontier Air,-235.96,Air Travel,Travel
+2022-02-02,FOXRENTACAR,-150.0,Auto & Transport,Root
+2022-01-31,OAKTON SMOKE & VAPE SHOP,-16.0,Alcohol & Bars,Food & Dining
+2022-01-31,SignUp *LifeTimeChicagoSp,-112.14,Sports,Health & Fitness
+2022-01-27,VENTRA VENDING 04504,-3.0,Public Transportation,Auto & Transport
+2022-01-26,VENTRA VENDING 02501,-5.0,Public Transportation,Auto & Transport
+2022-01-25,PARK CHICAGO MOBILE,-20.0,Parking,Auto & Transport
+2022-01-24,1C UNITED CNTR CONCESS,-28.26,Shopping,Root
+2022-01-24,1C UNITED CNTR CONCESS,-28.26,Shopping,Root
+2022-01-24,Chipotle,-9.3,Fast Food,Food & Dining
+2022-01-24,Target,-20.96,Shopping,Root
+2022-01-24,Great Clips,-24.0,Hair,Personal Care
+2022-01-22,Of course,-101.0,Travel,Root
+2022-01-22,Beverage,15.0,Income,Root
+2022-01-21,FOREMOST LIQUORS,-35.04,Alcohol & Bars,Food & Dining
+2022-01-21,"Josh G, mikaela A",-313.06,Cash & ATM,Uncategorized
+2022-01-21,skinny dog,-42.0,Restaurants,Food & Dining
+2022-01-21,Tweet,-32.0,Business Services,Root
+2022-01-20,OPS* SOMERSET PLACE 2,-5.0,Laundry,Personal Care
+2022-01-20,OPS* SOMERSET PLACE 2,-20.0,Laundry,Personal Care
+2022-01-20,VENTRA VENDING 02502,-5.0,Public Transportation,Auto & Transport
+2022-01-20,Luke Sarah Bach,156.53,Income,Root
+2022-01-20,Wooo Ya,30.0,Restaurants,Food & Dining
+2022-01-19,"Jenna, Jonah",-313.06,Cash & ATM,Uncategorized
+2022-01-19,Luke Sarah Bach,156.53,Income,Root
+2022-01-19,Laundry thief,-40.0,Laundry,Personal Care
+2022-01-18,Kwik Trip,-3.61,Gas & Fuel,Auto & Transport
+2022-01-18,Qdoba Mexican Grill,-9.23,Fast Food,Food & Dining
+2022-01-18,VENTRA VENDING 02501,-5.0,Public Transportation,Auto & Transport
+2022-01-18,Moneys,61.06,Income,Root
+2022-01-18,Luke Sarah Bach,156.53,Income,Root
+2022-01-18,Luke Sarah Bach,156.53,Income,Root
+2022-01-17,Shell,-1.99,Gas & Fuel,Auto & Transport
+2022-01-17,Shell,-38.97,Gas & Fuel,Auto & Transport
+2022-01-17,Holiday Stationstore,-63.63,Gas & Fuel,Auto & Transport
+2022-01-17,Caribou Coffee,-19.52,Coffee Shops,Food & Dining
+2022-01-17,"Katie L, Kalley S, Natalie C",-365.24,Babysitter & Daycare,Kids
+2022-01-16,Luke Sarah Bach,52.18,Income,Root
+2022-01-14,Exxon,-25.97,Gas & Fuel,Auto & Transport
+2022-01-14,Exxon,-1.69,Gas & Fuel,Auto & Transport
+2022-01-14,Luke Sarah Bach,156.53,Income,Root
+2022-01-14,Spotify May Dec,22.92,Income,Root
+2022-01-14,Luke Sarah Bach,156.53,Income,Root
+2022-01-14,Mom Dad Present,22.25,Income,Root
+2022-01-14,Luke Sarah Bach,156.53,Income,Root
+2022-01-14,Neil + Cam,-313.06,Transfer,Root
+2022-01-12,Luke Sarah Bach,156.53,Income,Root
+2022-01-12,"Linnae, Rosie",-260.88,Cash & ATM,Uncategorized
+2022-01-12,Luke Sarah Bach,156.53,Income,Root
+2022-01-12,Shelby,-156.53,Restaurants,Food & Dining
+2022-01-11,Luke Sarah Bach,156.53,Income,Root
+2022-01-11,Luke Sarah Bach,104.35,Income,Root
+2022-01-10,Luke Sarah Bach,156.53,Income,Root
+2022-01-10,Sarah Lukes Bachelor,156.53,Income,Root
+2022-01-10,Luke Sarah Bach,156.53,Income,Root
+2022-01-10,Luke Sarah Bach,156.53,Income,Root
+2022-01-10,Anthony's,-782.65,Restaurants,Food & Dining
+2022-01-10,Luke Sarah Bach,156.53,Income,Root
+2022-01-09,Luke Sarah Bach,104.35,Income,Root
+2022-01-09,Luke Sarah Bach,156.53,Income,Root
+2022-01-09,"Cole, katelyn w, Noah f, Luke skow, Andy, josh t, Noah b, howie, Ben s, Ben u",-1513.12,Home Improvement,Home
+2022-01-09,Amazon,-3.99,Venmo Payment,Misc Expenses
+2022-01-09,INTERNATIONAL TXN FEE 74080372009001015264773,-0.03,Service Fee,Fees & Charges
+2022-01-09,GEOGUESSR PRO 74609052008000001526477,-2.99,Electronics & Software,Shopping
+2022-01-08,Luke Sarah Bach,156.53,Income,Root
+2022-01-08,Luke Sarah Bach,156.53,Income,Root
+2022-01-08,Luke Sarah Bach,156.53,Income,Root
+2022-01-08,Luke Sarah Bach,156.53,Income,Root
+2022-01-08,Luke Sarah Bach,313.06,Income,Root
+2022-01-08,Luke Sarah Bach,156.53,Income,Root
+2022-01-08,Luke Sarah Bach,156.53,Income,Root
+2022-01-08,Bach party,-156.53,Service & Parts,Auto & Transport
+2022-01-07,Food and stuff,-159.8,Food & Dining,Root
+2022-01-04,Lee Schmalz Paid Jordan Foley,-50.0,Gym,Health & Fitness
+2022-01-03,ComEd,-173.18,Utilities,Bills & Utilities
+2022-01-03,Amazon web services,-0.48,AWS,Misc Expenses
+2022-01-02,All Billz,501.05,Income,Root
+2022-01-01,Kale salad with beans,-10.0,Restaurants,Food & Dining
+2022-01-01,Cortrust Bank National Association,-735.01,Transfer,Root
+2022-01-01,Uber.com,-4.5,Rental Car & Taxi,Travel
+2021-12-31,Progressive,-647.0,Auto Insurance,Auto & Transport
+2021-12-31,YSI*Somerset Place,-845.0,Mortgage & Rent,Home
+2021-12-31,WWW.MAYADELSOL.COM,-199.5,Clothing,Shopping
+2021-12-28,CAPITAL ONE MEMBER FEE,-95.0,Bank Fee,Fees & Charges
+2021-12-20,Laughs Part,40.0,Income,Root
+2021-12-20,Mom Dad Present,22.25,Income,Root
+2021-12-20,Laughs Pt,20.0,Income,Root
+2021-12-19,Spotify May Dec,22.92,Income,Root
+2021-12-19,Mom Dad Present,22.25,Income,Root
+2021-12-19,Spotify May Dec,22.92,Income,Root
+2021-12-19,Flo Subscription,80.5,Income,Root
+2021-12-19,Spotify May Dec,45.84,Income,Root
+2021-12-13,Car Parking,286.0,Income,Root
+2021-12-09,Bank Error,139.51,Income,Root
+2021-12-09,Pt,11.0,Income,Root
+2021-12-09,Take my money,-116.0,Charity,Gifts & Donations
+2021-12-08,GEOGUESSR PRO 74609051342000001581107,-2.99,Electronics & Software,Shopping
+2021-12-08,INTERNATIONAL TXN FEE 74080371342001015811076,-0.03,Service Fee,Fees & Charges
+2021-12-07,Amazon web services,-1.85,AWS,Misc Expenses
+2021-11-26,MARIANOS #522 24445001329300246384936,-57.29,Groceries,Food & Dining
+2021-11-15,Qdobaaaa,-18.0,Alcohol & Bars,Food & Dining
+2021-11-13,+,-12.0,Restaurants,Food & Dining
+2021-11-11,Nice,-45.0,Restaurants,Food & Dining
+2021-11-08,INTERNATIONAL TXN FEE 74080371312001013512425,-0.03,Service Fee,Fees & Charges
+2021-11-08,GEOGUESSR PRO 74609051312000001351242,-2.99,Electronics & Software,Shopping
+2021-11-07,Groceries,-145.0,Groceries,Food & Dining
+2021-11-06,Feds,20.0,Income,Root
+2021-11-06,Amazon,-3.99,Venmo Payment,Misc Expenses
+2021-11-06,Beers,-26.0,Alcohol & Bars,Food & Dining
+2021-11-06,Beer Shots,50.0,Income,Root
+2021-11-06,Feds,17.0,Income,Root
+2021-11-04,Amazon web services,-4.4,AWS,Misc Expenses
+2021-11-02,Lee Schmalz Paid Natalie Bunde,-850.01,Venmo Payment,Misc Expenses
+2021-10-31,T.I.T.S,-41.0,Restaurants,Food & Dining
+2021-10-28,Funs,-22.0,Restaurants,Food & Dining
+2021-10-28,No,22.0,Income,Root
+2021-10-26,Doby,-22.0,Entertainment,Root
+2021-10-08,GEOGUESSR PRO 74609051281000001220899,-2.99,Electronics & Software,Shopping
+2021-10-08,INTERNATIONAL TXN FEE 74080371281001012208998,-0.03,Service Fee,Fees & Charges
+2021-10-03,Amazon web services,-24.49,AWS,Misc Expenses
+2021-09-16,Amazon,-8.0,Venmo Payment,Misc Expenses
+2021-09-15,Amazon,-13.22,Venmo Payment,Misc Expenses
+2021-09-12,Chipotle,-8.97,Fast Food,Food & Dining
+2021-09-12,2708PEPSIVEN9147678600 24692161255100593248548,-2.25,Fast Food,Food & Dining
+2021-09-08,INTERNATIONAL TXN FEE 74080371251001011343107,-0.03,Service Fee,Fees & Charges
+2021-09-08,GEOGUESSR PRO 74609051251000001134310,-2.99,Electronics & Software,Shopping
+2021-09-03,Amazon web services,-25.19,AWS,Misc Expenses
+2021-08-29,U-Haul,-4.9,Home Services,Home
+2021-08-23,2708PEPSIVEN9147678600 24692161234100523669611,-2.25,Fast Food,Food & Dining
+2021-08-22,Subway,-7.59,Fast Food,Food & Dining
+2021-08-15,2708PEPSIVEN9147678600 24692161226100141589233,-2.25,Fast Food,Food & Dining
+2021-08-14,With A Lime,10.0,Income,Root
+2021-08-14,And a lemon,-10.0,Restaurants,Food & Dining
+2021-08-13,2708PEPSIVEN9147678600 24692161225100312891773,-2.25,Fast Food,Food & Dining
+2021-08-08,Brunch,-40.0,Restaurants,Food & Dining
+2021-08-08,INTERNATIONAL TXN FEE 74080371220001012539024,-0.03,Service Fee,Fees & Charges
+2021-08-08,GEOGUESSR PRO 74609051220000001253902,-2.99,Electronics & Software,Shopping
+2021-08-04,Amazon web services,-25.18,AWS,Misc Expenses
+2021-08-02,Target,9.5,Income,Root
+2021-07-30,3080,-128.31,Check,Uncategorized
+2021-07-30,3080,-1071.69,Check,Uncategorized
+2021-07-30,Ginatsix,-28.0,Entertainment,Root
+2021-07-30,Amazon,-23.14,Venmo Payment,Misc Expenses
+2021-07-29,Rent,826.0,Mortgage & Rent,Home
+2021-07-29,Dunkin Donuts,-5.51,Coffee Shops,Food & Dining
+2021-07-27,Dinner,35.0,Restaurants,Food & Dining
+2021-07-26,Target,-29.81,Shopping,Root
+2021-07-26,Ross,-41.87,Clothing,Shopping
+2021-07-25,PC,-800.0,Financial,Root
+2021-07-25,Drinks,18.5,Income,Root
+2021-07-25,More Drinks,14.0,Income,Root
+2021-07-25,Beer,-23.0,Alcohol & Bars,Food & Dining
+2021-07-19,Kwik Trip,-43.28,Gas & Fuel,Auto & Transport
+2021-07-18,Amazon,26.87,Shopping,Root
+2021-07-16,Kwik Trip,-49.51,Gas & Fuel,Auto & Transport
+2021-07-14,retuoray,-48.31,Restaurants,Food & Dining
+2021-07-13,Car Insurance Pt,50.0,Auto Insurance,Auto & Transport
+2021-07-13,Car Insurance Pt,177.5,Auto Insurance,Auto & Transport
+2021-07-12,Potle,8.0,Income,Root
+2021-07-12,Chipotle,-25.06,Fast Food,Food & Dining
+2021-07-11,Beer,-10.0,Alcohol & Bars,Food & Dining
+2021-07-11,Bernie,-30.0,Alcohol & Bars,Food & Dining
+2021-07-11,Chipotle,-8.35,Fast Food,Food & Dining
+2021-07-08,GEOGUESSR PRO 74609051189000001216312,-2.99,Electronics & Software,Shopping
+2021-07-08,INTERNATIONAL TXN FEE 74080371189001012163121,-0.03,Service Fee,Fees & Charges
+2021-07-07,Null,10.5,Income,Root
+2021-07-07,Parking,92.5,Income,Root
+2021-07-06,Scott,-20.0,Restaurants,Food & Dining
+2021-07-06,Cortrust Bank National Association,-703.21,Mortgage & Rent,Home
+2021-07-05,Taxi,-10.0,Rental Car & Taxi,Travel
+2021-07-05,May-262 June-262 Brakes-32 Birthday- -75.00 Total 481,-481.0,Service & Parts,Auto & Transport
+2021-07-04,taxi,-10.0,Rental Car & Taxi,Travel
+2021-07-04,Nicholas Olson Paid,1000.0,Income,Root
+2021-07-04,Amazon web services,-24.51,AWS,Misc Expenses
+2021-06-30,Amazon,-112.89,Venmo Payment,Misc Expenses
+2021-06-29,Amazon,-36.55,Venmo Payment,Misc Expenses
+2021-06-29,Amazon,-26.87,Venmo Payment,Misc Expenses
+2021-06-27,You Got Lucky,9.0,Income,Root
+2021-06-27,All Stuffs,40.0,Income,Root
+2021-06-23,Butter custard,-4.0,Charity,Gifts & Donations
+2021-06-20,Lee Schmalz Paid Jack Reinhardt,-10.0,Restaurants,Food & Dining
+2021-06-20,Smoke Shop,-20.0,T,Misc Expenses
+2021-06-19,Eggs Bennie,24.0,Income,Root
+2021-06-17,COBORN'S-DELANO 24427331167730244009093,-6.96,Groceries,Food & Dining
+2021-06-13,We Bought A,160.21,Income,Root
+2021-06-11,Exxon,-46.23,Gas & Fuel,Auto & Transport
+2021-06-10,Renters insurance,-87.0,Home Insurance,Home
+2021-06-08,INTERNATIONAL TXN FEE 74080371159001009929845,-0.03,Service Fee,Fees & Charges
+2021-06-08,GEOGUESSR PRO 74609051159000000992984,-2.99,Electronics & Software,Shopping
+2021-06-07,Cash,-40.0,Restaurants,Food & Dining
+2021-06-06,LORD FLETCHERS 24690511156207588711857,-26.21,Restaurants,Food & Dining
+2021-06-04,Amazon web services,-25.23,AWS,Misc Expenses
+2021-06-03,Stellas,45.0,Income,Root
+2021-06-01,TEQUILA BUTCHER AT THE C 24323001151091924000585,-16.31,Restaurants,Food & Dining
+2021-05-30,Chipotle,-7.8,Fast Food,Food & Dining
+2021-05-30,Yard House 8354,-37.57,Restaurants,Food & Dining
+2021-05-30,Punch Bowl Social Minneapolis,-25.01,Alcohol & Bars,Food & Dining
+2021-05-27,Cabin :),-45.0,Alcohol & Bars,Food & Dining
+2021-05-24,Cortrust Bank National Association,-48.12,Financial,Root
+2021-05-24,Subway,-6.31,Fast Food,Food & Dining
+2021-05-23,Gas Pedal,10.0,Income,Root
+2021-05-20,McDonald's,-6.45,Fast Food,Food & Dining
+2021-05-16,Stinson Wine Beer & Spirits,-16.57,Alcohol & Bars,Food & Dining
+2021-05-09,INTERNATIONAL TXN FEE 74080371129001015214916,-0.03,Service Fee,Fees & Charges
+2021-05-09,GEOGUESSR PRO 74609051128000001521491,-2.99,Electronics & Software,Shopping
+2021-05-04,Amazon web services,-25.32,AWS,Misc Expenses
+2021-04-26,Side Bar & Grill Inc,-18.75,Restaurants,Food & Dining
+2021-04-25,MGM Liquor Warehouse,-37.39,Alcohol & Bars,Food & Dining
+2021-04-25,Sub,-8.0,Entertainment,Root
+2021-04-25,Nigerian nightmare,-10.0,Alcohol & Bars,Food & Dining
+2021-04-25,Drinks Last Night,9.0,Income,Root
+2021-04-25,Pulls,-10.5,Restaurants,Food & Dining
+2021-04-20,Culver's of Navarre,-9.23,Fast Food,Food & Dining
+2021-04-19,Navarre Liquors,-16.49,Alcohol & Bars,Food & Dining
+2021-04-18,Shell,-3.22,Gas & Fuel,Auto & Transport
+2021-04-18,Culver's of Navarre,-8.15,Fast Food,Food & Dining
+2021-04-16,Smoke Shop,-25.0,T,Misc Expenses
+2021-04-15,Hey thanks,-43.0,Restaurants,Food & Dining
+2021-04-14,Superamerica,-4.59,Gas & Fuel,Auto & Transport
+2021-04-12,THE NARROWS SALOON 24071051101330173078110,-49.86,Alcohol & Bars,Food & Dining
+2021-04-12,Superamerica,-4.59,Gas & Fuel,Auto & Transport
+2021-04-10,Wide Saloon,30.0,Income,Root
+2021-04-10,Sugar mama,-10.0,Food & Dining,Root
+2021-04-08,Wrong Beans,27.0,Income,Root
+2021-04-08,INTERNATIONAL TXN FEE 74080371098001009970785,-0.03,Service Fee,Fees & Charges
+2021-04-08,GEOGUESSR * TRIAL OVER 74609051098000000997078,-2.99,Electronics & Software,Shopping
+2021-04-08,TST* LAGOS TACOS EXCELSIO 24137461097300569106121,-65.1,Restaurants,Food & Dining
+2021-04-04,Amazon web services,-25.54,AWS,Misc Expenses
+2021-04-04,MGM Liquor Warehouse,-18.69,Alcohol & Bars,Food & Dining
+2021-03-31,0.9999999999,5.0,Income,Root
+2021-03-31,Culver's of Navarre,-13.84,Fast Food,Food & Dining
+2021-03-21,Beer,-4.0,Alcohol & Bars,Food & Dining
+2021-03-19,March,-195.0,Mortgage & Rent,Home
+2021-03-19,February 195 Truck gas -68 Dad filled your car 40 Ski rental refund -25,-142.0,Utilities,Bills & Utilities
+2021-03-15,Culver's of Navarre,-22.67,Fast Food,Food & Dining
+2021-03-14,Chipotle,-8.06,Fast Food,Food & Dining
+2021-03-10,SHULA BURGER FLL 24692161068100677994352,-12.42,Fast Food,Food & Dining
+2021-03-09,NEWSLINK ST1653 24431061068838000144637,-3.39,Shopping,Root
+2021-03-09,Chick-Fil-A,-10.31,Fast Food,Food & Dining
+2021-03-09,Qdabo,-9.0,Restaurants,Food & Dining
+2021-03-08,Lyft,-5.0,Rental Car & Taxi,Travel
+2021-03-05,Quick Stop,-49.19,Gas & Fuel,Auto & Transport
+2021-03-04,Amazon web services,-24.84,AWS,Misc Expenses
+2021-03-04,3 SONS BREWING CO 24342851062017046784270,-31.75,Restaurants,Food & Dining
+2021-03-04,Billys Tip,15.0,Income,Root
+2021-03-04,Luke Skowronek Paid,69.0,Income,Root
+2021-03-04,Engagement,95.0,Income,Root
+2021-03-04,Josh Galkowski Paid,51.0,Income,Root
+2021-03-04,First Minnesota Bank,-877.81,Transfer,Root
+2021-03-04,Peepee,4.0,Income,Root
+2021-03-04,Billys,102.0,Income,Root
+2021-03-04,Dinner,195.0,Income,Root
+2021-03-04,Dinner,56.95,Restaurants,Food & Dining
+2021-03-04,Dinner,71.56,Restaurants,Food & Dining
+2021-03-04,Dinner,64.0,Restaurants,Food & Dining
+2021-03-04,Dinner,10.0,Restaurants,Food & Dining
+2021-03-04,Res,15.0,Income,Root
+2021-03-04,Jesus,4.0,Income,Root
+2021-03-04,Fooooodsdss,115.0,Income,Root
+2021-03-04,Short,7.0,Income,Root
+2021-03-03,Uber.com,-4.0,Rental Car & Taxi,Travel
+2021-03-02,Hudson News,-5.31,Newspapers & Magazines,Entertainment
+2021-03-02,McDonald's,-3.06,Fast Food,Food & Dining
+2021-03-01,POWDER RIDGE SKI AREA (RE 24003411059900019881983,-3.0,Restaurants,Food & Dining
+2021-03-01,Target,-36.24,Shopping,Root
+2021-03-01,POWDER RIDGE SKI AREA (RE 24003411059900019882700,-25.0,Restaurants,Food & Dining
+2021-03-01,POWDER RIDGE SKI AREA (RE 24003411059900019883328,-12.0,Restaurants,Food & Dining
+2021-03-01,Great Clips,-22.0,Hair,Personal Care
+2021-02-28,Smoke Shop,-25.0,T,Misc Expenses
+2021-02-28,Chipotle,-7.06,Fast Food,Food & Dining
+2021-02-26,Wine & Spirits,-19.79,Alcohol & Bars,Food & Dining
+2021-02-25,Delta,-29.3,Air Travel,Travel
+2021-02-16,Fl House Refund,22.3,Income,Root
+2021-02-16,Fl House Refund,22.3,Income,Root
+2021-02-14,If we break stuff,-4.0,Alcohol & Bars,Food & Dining
+2021-02-14,If we break stuff,-4.0,Alcohol & Bars,Food & Dining
+2021-02-11,First Minnesota Bank,-245.34,Transfer,Root
+2021-02-11,First Minnesota Bank,-245.34,Transfer,Root
+2021-02-09,Amazon,-4.0,Venmo Payment,Misc Expenses
+2021-02-09,Amazon,-4.0,Venmo Payment,Misc Expenses
+2021-02-08,Large bowl,-4.0,Misc Expenses,Root
+2021-02-08,Large bowl,-4.0,Misc Expenses,Root
+2021-02-04,Amazon web services,-35.84,AWS,Misc Expenses
+2021-01-31,MYTHICAL SMOKES LLC 24431061030091111000372,-22.04,T,Misc Expenses
+2021-01-29,McDonald's,-8.14,Fast Food,Food & Dining
+2021-01-29,Amazon,-4.21,Venmo Payment,Misc Expenses
+2021-01-29,Chipotle,-9.11,Fast Food,Food & Dining
+2021-01-28,Stinson Wine Beer & Spirits,-12.15,Alcohol & Bars,Food & Dining
+2021-01-28,Target,-10.37,Shopping,Root
+2021-01-25,Chipotle,-5.96,Fast Food,Food & Dining
+2021-01-25,FARMERS GR* FARMERS GR 24492151024637026029840,-17.08,Restaurants,Food & Dining
+2021-01-24,Meat Stack,10.0,Venmo Payment,Misc Expenses
+2021-01-24,Champs Sports,-10.0,Venmo Payment,Misc Expenses
+2021-01-24,Devastating Loss,9.65,Venmo Payment,Misc Expenses
+2021-01-24,Goat Brady,5.0,Venmo Payment,Misc Expenses
+2021-01-24,Holiday Stationstore,-66.93,Hide from Budgets & Trends,Root
+2021-01-23,Chicagooooo,230.0,Venmo Payment,Misc Expenses
+2021-01-22,Smoke Shop,-25.0,T,Misc Expenses
+2021-01-20,Lee Schmalz Paid Natalie Bunde,-15.0,Venmo Payment,Misc Expenses
+2021-01-20,FL house,-379.6,Venmo Payment,Misc Expenses
+2021-01-17,Scotty B,8.0,Venmo Payment,Misc Expenses
+2021-01-17,THANK YOU 74080371017001159364951,168.98,Hide from Budgets & Trends,Root
+2021-01-17,Amazon,-11.29,Venmo Payment,Misc Expenses
+2021-01-13,Holiday Stationstore,-35.9,Gas & Fuel,Auto & Transport
+2021-01-13,Stinson Wine Beer & Spirits,-27.61,Alcohol & Bars,Food & Dining
+2021-01-11,Wine & Spirits,-13.19,Alcohol & Bars,Food & Dining
+2021-01-10,Amazon,-82.48,Venmo Payment,Misc Expenses
+2021-01-10,Smoke Shop,-25.0,T,Misc Expenses
+2021-01-09,Chauffeur,-10.0,Venmo Payment,Misc Expenses
+2021-01-05,Holiday Stationstore,-33.26,Gas & Fuel,Auto & Transport
+2021-01-05,Northern Pine,-38.86,Restaurants,Food & Dining
+2021-01-03,Amazon web services,-9.22,AWS,Misc Expenses
+2021-01-02,Champs Sports,-30.0,Venmo Payment,Misc Expenses
+2021-01-02,Lee Schmalz Paid Natalie Bunde,-10.0,Venmo Payment,Misc Expenses
+2021-01-01,Mom and dads present,-35.0,Venmo Payment,Misc Expenses
+2021-01-01,Kwik Trip,-3.69,Gas & Fuel,Auto & Transport
+2020-12-31,Speedway,-32.24,Gas & Fuel,Auto & Transport
+2020-12-27,Oil,-42.0,Venmo Payment,Misc Expenses
+2020-12-23,Lee Schmalz Paid Ben Schmalz,-52.0,Venmo Payment,Misc Expenses
+2020-12-23,Amazon,-9.23,Shopping,Root
+2020-12-23,Amazon,-18.38,Shopping,Root
+2020-12-22,Amazon,-8.03,Shopping,Root
+2020-12-22,Amazon,-70.94,Shopping,Root
+2020-12-21,Scott,-10.0,Venmo Payment,Misc Expenses
+2020-12-21,Chipotle,-7.8,Fast Food,Food & Dining
+2020-12-20,Haagen Dazs,-3.63,Fast Food,Food & Dining
+2020-12-18,Lee Schmalz Paid Natalie Bunde,-30.0,Venmo Payment,Misc Expenses
+2020-12-18,Amazon web services,-13.38,AWS,Misc Expenses
+2020-12-14,Wine & Spirits,-1.66,Groceries,Food & Dining
+2020-12-11,Lee Schmalz Paid Brenda Schmalz,-4.0,Venmo Payment,Misc Expenses
+2020-12-08,Lee Schmalz Paid Natalie Bunde,-6.0,Venmo Payment,Misc Expenses
+2020-12-05,Drink Or Two,7.0,Venmo Payment,Misc Expenses
+2020-12-01,Final Dont Spend,0.25,Venmo Payment,Misc Expenses
+2020-12-01,Day Part,0.25,Venmo Payment,Misc Expenses
+2020-12-01,Day Pt,0.25,Venmo Payment,Misc Expenses
+2020-12-01,Day Pt,0.25,Venmo Payment,Misc Expenses
+2020-12-01,ADAM`S GROCERY 24707800335030030568903,-20.0,T,Misc Expenses
+2020-11-29,Taco Bell,-16.59,Fast Food,Food & Dining
+2020-11-29,Great Clips,-21.0,Hair,Personal Care
+2020-11-29,ADAM`S GROCERY 24707800332030021268755,-18.0,Groceries,Food & Dining
+2020-11-29,Stinson Wine Beer & Spirits,-56.32,Alcohol & Bars,Food & Dining
+2020-11-27,Holiday Stationstore,-1.72,Gas & Fuel,Auto & Transport
+2020-11-23,That Fancy Stuff,10.0,Venmo Payment,Misc Expenses
+2020-11-23,Target,-20.27,Shopping,Root
+2020-11-23,Wine & Spirits,-17.67,Alcohol & Bars,Food & Dining
+2020-11-23,Byerly's,-28.25,Groceries,Food & Dining
+2020-11-23,Smoke Shop,-25.0,T,Misc Expenses
+2020-11-22,Chipotle,-7.56,Fast Food,Food & Dining
+2020-11-19,Lee Schmalz Paid Natalie Bunde,-18.0,Venmo Payment,Misc Expenses
+2020-11-16,Drinky Poos,38.0,Venmo Payment,Misc Expenses
+2020-11-15,Island City Goldies,24.0,Venmo Payment,Misc Expenses
+2020-11-15,Ocean,-23.0,Venmo Payment,Misc Expenses
+2020-11-15,Wine & Spirits,-77.44,Alcohol & Bars,Food & Dining
+2020-11-14,Perkins,16.5,Venmo Payment,Misc Expenses
+2020-11-14,Poker,-2.75,Venmo Payment,Misc Expenses
+2020-11-14,Poker,-2.7,Venmo Payment,Misc Expenses
+2020-11-13,Goods,10.0,Venmo Payment,Misc Expenses
+2020-11-13,Beeer,20.0,Venmo Payment,Misc Expenses
+2020-11-13,Thomas Ruud Paid,33.0,Venmo Payment,Misc Expenses
+2020-11-13,Chipotle,-7.69,Fast Food,Food & Dining
+2020-11-13,Smoke Shop,-25.0,Shopping,Root
+2020-11-10,Exxon,-36.34,Gas & Fuel,Auto & Transport
+2020-11-10,Exxon,-4.06,Gas & Fuel,Auto & Transport
+2020-11-09,Taco Bell,-18.32,Fast Food,Food & Dining
+2020-11-08,TST* THE FREEHOUSE 24137460311100170521912,-63.19,Restaurants,Food & Dining
+2020-11-08,Smoke Shop,-25.0,Shopping,Root
+2020-11-07,Uber.com,-7.0,Venmo Payment,Misc Expenses
+2020-11-04,Amazon web services,-8.92,Electronics & Software,Shopping
+2020-10-28,Exxon,-30.21,Gas & Fuel,Auto & Transport
