@@ -1,14 +1,54 @@
 date,description,amount,category.name,category.parentName
+2022-12-31,SQ *LEVY @ LINCOLN PARK Z,-20.0,Alcohol & Bars,Food & Dining
+2022-12-30,9/26 - 12/29,-521.0,Cash & ATM,Uncategorized
+2022-12-30,FSP*SARAH SEVEN CHICAG,-55.13,Child Support,Kids
+2022-12-29,KWIK TRIP XXXXXXXXXX,-27.24,Gas & Fuel,Auto & Transport
+2022-12-29,ICELANDAIR XXXXXXXXXX,-918.75,Air Travel,Travel
+2022-12-29,KWIK TRIP  67300006734,-1.79,Gas & Fuel,Auto & Transport
+2022-12-29,MARIANOS #522,-35.88,Groceries,Food & Dining
+2022-12-28,HOLIDAY STATIONS 0515,-45.99,Gas & Fuel,Auto & Transport
+2022-12-28,ACH Deposit Internet transfer from account ending in 0320,199.08,Transfer,Root
+2022-12-28,Transfer To CORTRUST BANK NATIONAL ASSOCIATION,-813.0,Transfer,Root
+2022-12-28,Luke Schmalz Charged Lee Schmalz,-37.0,Restaurants,Food & Dining
+2022-12-27,JIMMY JOHNS - 3317,-22.07,Restaurants,Food & Dining
+2022-12-26,Hi,20.0,Income,Root
+2022-12-26,stop merry Christmas,-20.0,Restaurants,Food & Dining
+2022-12-26,Bret Bunde Paid Lee Schmalz,850.0,Income,Root
+2022-12-25,ponies,-10.0,Entertainment,Root
+2022-12-25,Poker,-10.0,Venmo Payment,Misc Expenses
+2022-12-23,TARGET        00008623,-34.46,Shopping,Root
+2022-12-23,ACH Deposit Internet transfer from account ending in 4722,250.16,Transfer,Root
+2022-12-22,Natalie Bunde Paid Madi Moore,-25.0,Restaurants,Food & Dining
+2022-12-22,HOLIDAY STATIONS 0515,-46.9,Gas & Fuel,Auto & Transport
+2022-12-21,CULVERS OF RIVERSIDE 49,-22.59,Fast Food,Food & Dining
+2022-12-21,ZANIES ONLINE CHICAGO,-71.9,Restaurants,Food & Dining
+2022-12-21,BP#9574468BROADWAY & FOS,-58.35,Gas & Fuel,Auto & Transport
+2022-12-20,dad,-50.0,Shopping,Root
+2022-12-19,J. PARKER,-80.0,Alcohol & Bars,Food & Dining
+2022-12-19,CVS/PHARMACY #01493,-17.4,Personal Care,Root
+2022-12-18,APPLE.COM/BILL,-1.99,Electronics & Software,Shopping
+2022-12-18,MARIANOS 522,-27.69,Groceries,Food & Dining
+2022-12-18,Amazon,-44.06,Venmo Payment,Misc Expenses
+2022-12-18,Amazon,-25.9,Venmo Payment,Misc Expenses
 2022-12-16,MARIANOS 522,-22.12,Groceries,Food & Dining
+2022-12-15,DICKSSPORTINGGOODS.COM,-27.92,Sporting Goods,Shopping
+2022-12-15,DICKSSPORTINGGOODS.COM,-0.6,Sporting Goods,Shopping
+2022-12-13,DICKSSPORTINGGOODS.COM,-74.36,Sporting Goods,Shopping
+2022-12-13,Amazon,-37.68,Venmo Payment,Misc Expenses
 2022-12-13,CAPITAL ONE MEMBER FEE,-95.0,Bank Fee,Fees & Charges
 2022-12-13,OPS* SOMERSET PLACE 2,-10.0,Laundry,Personal Care
 2022-12-13,OPS* SOMERSET PLACE 2,-10.0,Laundry,Personal Care
 2022-12-13,Amazon,-11.91,Venmo Payment,Misc Expenses
 2022-12-12,Amazon web services,-0.48,AWS,Misc Expenses
+2022-12-11,ACH Deposit Internet transfer from account ending in 0320,401.46,Transfer,Root
+2022-12-11,32770 - NEW CITY,-8.0,Parking,Auto & Transport
 2022-12-11,Amazon,-28.65,Venmo Payment,Misc Expenses
 2022-12-11,TARGET        00023739,-33.17,Shopping,Root
 2022-12-11,ALDI 40003 CHICAGO,-69.47,Groceries,Food & Dining
 2022-12-11,Transfer To CORTRUST BANK NATIONAL ASSOCIATION,-112.0,Transfer,Root
+2022-12-10,LULULEMON HALSTED,-63.72,Clothing,Shopping
+2022-12-10,RSW CNBC B18A,-19.06,Cash & ATM,Uncategorized
+2022-12-10,TARGET        00026138,-116.89,Shopping,Root
 2022-12-10,UBER TRIP,-38.96,Ride Share,Auto & Transport
 2022-12-09,MARIANOS 522,-50.75,Groceries,Food & Dining
 2022-12-09,Mini golf,28.0,Income,Root
@@ -18,55 +58,133 @@ date,description,amount,category.name,category.parentName
 2022-12-08,Golf,56.0,Income,Root
 2022-12-08,Neil Schmalz Paid Lee Schmalz,28.0,Income,Root
 2022-12-07,APPLE.COM/BILL,-0.99,Electronics & Software,Shopping
+2022-12-06,WAL-MART #4063,-200.82,Shopping,Root
+2022-12-06,DOORDASH*7-ELEVEN,-18.73,Fast Food,Food & Dining
+2022-12-06,APPLE.COM/BILL,-0.99,Electronics & Software,Shopping
 2022-12-06,TARGET.COM  *,-133.09,Shopping,Root
+2022-12-05,Groceries,125.0,Groceries,Food & Dining
+2022-12-05,WALGREENS #15136,-12.77,Pharmacy,Health & Fitness
+2022-12-05,WALGREENS #15136,-52.14,Pharmacy,Health & Fitness
+2022-12-05,GREAT AM BAG 3 KSK ORD,-26.78,Restaurants,Food & Dining
 2022-12-05,LYFT   RIDE SAT 2PM,-37.49,Ride Share,Auto & Transport
 2022-12-05,UBER   TRIP,-37.07,Ride Share,Auto & Transport
+2022-12-04,ROSS DRESS FOR LESS 23,-25.35,Clothing,Shopping
+2022-12-04,HUDSON NEWS  ST851,-31.02,Newspapers & Magazines,Entertainment
+2022-12-04,OLD NAVY US 5192,-20.94,Clothing,Shopping
 2022-12-04,TST* Billy Goat Tavern -,-15.0,Restaurants,Food & Dining
 2022-12-04,TST* Billy Goat Tavern -,-22.0,Restaurants,Food & Dining
+2022-12-03,LOREAL *KIEHL'S ECOMM,-56.1,Personal Care,Root
+2022-12-03,QDOBA 2628,-23.58,Fast Food,Food & Dining
+2022-12-03,ROSS STORES #1910,-19.8,Clothing,Shopping
+2022-12-03,SECRID B.V.,-89.95,Transfer,Root
+2022-12-03,TARGET        00009274,-69.79,Shopping,Root
 2022-12-03,VENTRA MOBILE,-5.0,Public Transportation,Auto & Transport
+2022-12-02,SAINT JOSEPH HOSPITAL - P,-5.0,Parking,Auto & Transport
+2022-12-02,MARIANOS #522,-44.08,Groceries,Food & Dining
+2022-12-02,SJH CHICAGO OTPT PHARMACY,-14.59,Pharmacy,Health & Fitness
+2022-12-01,Pt 2,-7.0,Restaurants,Food & Dining
+2022-12-01, pt 1,-73.0,Restaurants,Food & Dining
+2022-12-01,ACH Deposit Internet transfer from account ending in 0320,217.82,Transfer,Root
 2022-12-01,MARIANOS 522,-11.91,Groceries,Food & Dining
 2022-12-01,MARIANOS 522,-39.86,Groceries,Food & Dining
+2022-11-30,SP BIOCLARITY,-51.6,Shopping,Root
 2022-11-30,MARIANOS 522,-15.66,Groceries,Food & Dining
 2022-11-29,MARIANOS 522,-25.6,Groceries,Food & Dining
+2022-11-28,STARBUCKS STORE 62850,-8.07,Coffee Shops,Food & Dining
 2022-11-28,2TWENTY2 TAVERN,-38.0,Restaurants,Food & Dining
 2022-11-28,Cell phone Aug - Dec pt 2,-78.0,Mobile Phone,Bills & Utilities
 2022-11-28,Cell phone Aug - Dec pt 1,-132.0,Mobile Phone,Bills & Utilities
+2022-11-27,TARGET        00032078,-5.5,Shopping,Root
 2022-11-27,ACT*Chicago Park Distr,-43.72,Entertainment,Root
 2022-11-27,TST* Roberts Pizza and D,-118.85,Restaurants,Food & Dining
 2022-11-27,MARIANOS 522,-9.67,Groceries,Food & Dining
 2022-11-27,VENTRA MOBILE,-5.0,Public Transportation,Auto & Transport
 2022-11-25,MARIANOS 522,-27.86,Groceries,Food & Dining
+2022-11-24,movie on prime,-4.0,Movies & DVDs,Entertainment
+2022-11-24,ALDI 40003,-16.78,Groceries,Food & Dining
+2022-11-24,MARIANOS #522,-57.68,Groceries,Food & Dining
 2022-11-24,1193 GREAT CLIPS AT LI,-26.0,Hair,Personal Care
+2022-11-23,PAPA JOHN'S #3999,-20.31,Fast Food,Food & Dining
+2022-11-23,TARGET        00023739,-12.96,Shopping,Root
+2022-11-23,TARGET        00023739,-30.49,Shopping,Root
+2022-11-20,MARQUEE LOUNGE INC,-27.77,Alcohol & Bars,Food & Dining
 2022-11-20,SUMMER HOUSE SANTAMONICA,-264.16,Restaurants,Food & Dining
 2022-11-20,MARIANOS 522,-21.64,Groceries,Food & Dining
+2022-11-19,pizzzaaaa way back when,-30.0,Restaurants,Food & Dining
 2022-11-19,ALDI 40003,-130.14,Groceries,Food & Dining
 2022-11-19,Summer house,132.0,Income,Root
+2022-11-18,TARGET        00023739,-64.65,Shopping,Root
+2022-11-18,APPLE.COM/BILL,-1.99,Electronics & Software,Shopping
+2022-11-17,ACH Deposit Internet transfer from account ending in 0320,442.26,Transfer,Root
 2022-11-17,OPS* SOMERSET PLACE 2,-30.0,Laundry,Personal Care
 2022-11-16,MARIANOS 522,-29.88,Groceries,Food & Dining
+2022-11-15,MARIANOS #522,-65.3,Groceries,Food & Dining
+2022-11-15,MEIJER # 130 FUEL,-76.3,Groceries,Food & Dining
+2022-11-15,Stateline Market,-20.3,Groceries,Food & Dining
 2022-11-15,EXXONMOBIL    47313788,-4.19,Gas & Fuel,Auto & Transport
 2022-11-15,ACH Deposit Internet transfer from account ending in 4722,23.69,Transfer,Root
+2022-11-14,MOUNTAIN LAKE LLC,-128.46,Vacation,Travel
+2022-11-14,SHELL OIL XXXXXXXXXX,-4.35,Gas & Fuel,Auto & Transport
+2022-11-14,SUGAR MOUNTAIN BAKERY,-12.53,Restaurants,Food & Dining
 2022-11-14,CHIPOTLE 0555,-17.7,Fast Food,Food & Dining
 2022-11-13,MOUNTAIN LAKE LLC,-84.55,Vacation,Travel
 2022-11-13,WALKABOUT OUTFITTER  BLA,-29.48,Shopping,Root
 2022-11-13,SQ *EASTERN DIVIDE BREWIN,-51.42,Restaurants,Food & Dining
+2022-11-12,Fooooooood ,35.0,Restaurants,Food & Dining
+2022-11-12,Food!,33.0,Income,Root
+2022-11-12,WAL-MART #1292,-8.23,Shopping,Root
+2022-11-12,Amazon,-7.71,Venmo Payment,Misc Expenses
+2022-11-12,SQ *EASTERN DIVIDE BRE,-13.0,Restaurants,Food & Dining
+2022-11-12,Amazon,-50.69,Venmo Payment,Misc Expenses
+2022-11-11,groceries :),-75.35,Groceries,Food & Dining
 2022-11-11,Shirt,-10.0,Clothing,Shopping
 2022-11-10,CULTURE GRILL AND CANTINA,-49.08,Restaurants,Food & Dining
 2022-11-10,SPEEDWAY 09224 NELSONVILL,-46.76,Gas & Fuel,Auto & Transport
 2022-11-10,SPEEDWAY 09224 NELSONVILL,-2.69,Gas & Fuel,Auto & Transport
 2022-11-10,APPLE.COM/BILL,-0.99,Electronics & Software,Shopping
+2022-11-09,HERNANDEZ AUTO REPAIR INC,-95.0,Service & Parts,Auto & Transport
+2022-11-09,CULVERS OF VANDALIA,-17.47,Fast Food,Food & Dining
+2022-11-09,STARBUCKS STORE 62850,-7.14,Coffee Shops,Food & Dining
 2022-11-09,SPEEDWAY 07675 I-65 AND S,-77.24,Gas & Fuel,Auto & Transport
+2022-11-08,NINA BEAUTY HOUSE,-45.0,Hair,Personal Care
 2022-11-08,JAMES AND SONS - CHICAGO,-1466.56,Hotel,Travel
 2022-11-08,VENTRA MOBILE,-5.0,Public Transportation,Auto & Transport
+2022-11-07,MARIANOS #522,-40.57,Groceries,Food & Dining
+2022-11-06,APPLE.COM/BILL,-0.99,Electronics & Software,Shopping
 2022-11-06,MARIANOS 522,-9.77,Groceries,Food & Dining
+2022-11-05,MARIANOS #522,-67.65,Groceries,Food & Dining
 2022-11-05,Transfer To CORTRUST BANK NATIONAL ASSOCIATION,-389.5,Transfer,Root
 2022-11-04,VA Airbnb,248.0,Income,Root
 2022-11-03,MARIANOS 522,-18.26,Groceries,Food & Dining
+2022-11-02,SJH CHICAGO OTPT PHARMACY,-14.59,Pharmacy,Health & Fitness
+2022-10-30,MARIANOS #522,-39.25,Groceries,Food & Dining
+2022-10-30,Foremost Liquors,-49.47,Alcohol & Bars,Food & Dining
+2022-10-29,BAYMONT BY WYNDHAM,60.0,Hotel,Travel
+2022-10-29,ALDI 40003,-146.43,Groceries,Food & Dining
+2022-10-28,Ireland pt 2,-365.58,Vacation,Travel
+2022-10-28,we going to irelanddddd (pt 1),-100.0,Transfer,Root
+2022-10-28,TARGET        00023739,-39.63,Shopping,Root
 2022-10-28,ACH Deposit Internet transfer from account ending in 4722,125.58,Transfer,Root
+2022-10-27,ACH Deposit Internet transfer from account ending in 0320,74.47,Transfer,Root
+2022-10-26,ITR CONCESSION COMPANY LL,-3.5,Fast Food,Food & Dining
+2022-10-26,SUNOCO XXXXXXXXXX,-47.75,Gas & Fuel,Auto & Transport
 2022-10-26,Hot tub time machine 1&2,9.0,Income,Root
+2022-10-25,ITR PORTAGE TOLLS,-1.2,Travel,Root
+2022-10-25,OHIO TURNPIKE,-5.75,Travel,Root
+2022-10-25,MARIANOS #522,-58.12,Groceries,Food & Dining
+2022-10-25,SKYWAY CONCESSIONS,-5.9,Restaurants,Food & Dining
+2022-10-25,ITR MICHIGAN CITY TOLLS,-8.8,Travel,Root
+2022-10-25,BAYMONT BY WYNDHAM,-146.53,Hotel,Travel
+2022-10-25,STARBUCKS 15622 390070,-10.19,Coffee Shops,Food & Dining
 2022-10-25,MARIANOS 522,-4.55,Groceries,Food & Dining
 2022-10-25,SHEETZ 0635   00006353,-14.06,Gas & Fuel,Auto & Transport
+2022-10-24,OHIO TURNPIKE,-13.25,Travel,Root
+2022-10-24,SHANDYGAFF,-18.0,Alcohol & Bars,Food & Dining
+2022-10-24,SHELL OIL XXXXXXXXXX,-45.81,Gas & Fuel,Auto & Transport
 2022-10-24,FRICKERS PERRYSBURG 10,-46.83,Restaurants,Food & Dining
 2022-10-24,PENN STATE UNIVERSITY,-15.0,Restaurants,Food & Dining
+2022-10-23,SHEETZ 0301   00003012,-4.68,Gas & Fuel,Auto & Transport
+2022-10-23,PERKINS RESTAURANT 250,-47.33,Restaurants,Food & Dining
 2022-10-23,SQ *EVENT MANAGEMENT SOLU,-24.0,Alcohol & Bars,Food & Dining
 2022-10-23,OHIO TURNPIKE,-15.0,Travel,Root
 2022-10-23,SQ *EVENT MANAGEMENT SOLU,-28.0,Alcohol & Bars,Food & Dining
@@ -75,39 +193,72 @@ date,description,amount,category.name,category.parentName
 2022-10-23,SNACK* PENN KEBAB,-24.38,Fast Food,Food & Dining
 2022-10-23,SQ *EVENT MANAGEMENT SOLU,-28.0,Alcohol & Bars,Food & Dining
 2022-10-23,RAISING CANE'S 0732,-24.2,Restaurants,Food & Dining
+2022-10-22,Take some back,-10.0,Restaurants,Food & Dining
+2022-10-22,food back,-17.0,Food & Dining,Root
+2022-10-22,Food,17.0,Income,Root
+2022-10-22,Beer & cover,20.0,Income,Root
+2022-10-22,COUNTRY GARDEN,-57.41,Fast Food,Food & Dining
+2022-10-21,BP#9793142SNAPPY 3 QPS,-10.28,Gas & Fuel,Auto & Transport
 2022-10-21,BP#9793142SNAPPY 3,-66.43,Gas & Fuel,Auto & Transport
 2022-10-21,ITR EASTPOINT TOLLS,-3.6,Travel,Root
 2022-10-21,BP#9793142SNAPPY 3 QPS,-2.88,Gas & Fuel,Auto & Transport
 2022-10-21,CHIPOTLE 2408,-10.3,Fast Food,Food & Dining
 2022-10-21,ITR CONCESSION COMPANY,-3.5,Fast Food,Food & Dining
 2022-10-21,SKYWAY CONCESSIONS,-5.9,Restaurants,Food & Dining
+2022-10-20,TRAVELURO HOTEL BKNG,-90.0,Hotel,Travel
 2022-10-19,LWKS SOFTWARE LTD,-23.99,Electronics & Software,Shopping
+2022-10-18,ACH Deposit Internet transfer from account ending in 0320,350.2,Transfer,Root
+2022-10-18,APPLE.COM/BILL,-1.99,Electronics & Software,Shopping
 2022-10-18,JAMES AND SONS - CHICAGO,-325.0,Hotel,Travel
+2022-10-17,VENTRA VENDING 13412,-5.0,Public Transportation,Auto & Transport
 2022-10-17,TST* URBANSPACE - THE PER,-20.88,Restaurants,Food & Dining
 2022-10-17,CHIPOTLE 0308,-14.86,Fast Food,Food & Dining
 2022-10-17,PUNCH BOWL SOCIAL CHICAGO,-25.35,Alcohol & Bars,Food & Dining
 2022-10-17,PUNCH BOWL SOCIAL CHICAGO,-39.24,Alcohol & Bars,Food & Dining
 2022-10-17,PUNCH BOWL SOCIAL CHICAGO,-74.58,Alcohol & Bars,Food & Dining
+2022-10-16,STARBUCKS STORE 09909,-9.57,Coffee Shops,Food & Dining
 2022-10-16,On Inc,-154.34,Clothing,Shopping
 2022-10-16,MARIANOS 522,-18.11,Groceries,Food & Dining
 2022-10-16,ACH Deposit Internet transfer from account ending in 4722,72.63,Transfer,Root
 2022-10-16,VENTRA MOBILE,-5.0,Public Transportation,Auto & Transport
 2022-10-16,VENTRA VENDING 02702,-3.0,Public Transportation,Auto & Transport
 2022-10-16,TARGET        00023739,-41.88,Shopping,Root
+2022-10-15,MARIANOS #522,-40.42,Groceries,Food & Dining
+2022-10-14,ROSS STORES #1910,-37.55,Clothing,Shopping
+2022-10-14,MARIANOS #522,-15.52,Groceries,Food & Dining
+2022-10-14,MARIANOS #522,-2.62,Groceries,Food & Dining
 2022-10-14,VENTRA MOBILE,-5.0,Public Transportation,Auto & Transport
+2022-10-13,ALDI 40003,-142.57,Groceries,Food & Dining
 2022-10-13,MEDPARK MANAGEMENT INC,-10.5,Parking,Auto & Transport
+2022-10-12,TARGET        00023739,-31.85,Shopping,Root
 2022-10-11,OPS* SOMERSET PLACE 2,-5.0,Laundry,Personal Care
 2022-10-11,OPS* SOMERSET PLACE 2,-20.0,Laundry,Personal Care
+2022-10-10,MARIANOS #522,-32.81,Groceries,Food & Dining
+2022-10-10,LULULEMONCOM*,-106.51,Clothing,Shopping
 2022-10-10,MARIANOS 522,-17.07,Groceries,Food & Dining
 2022-10-09,MARIANOS 522,-28.1,Groceries,Food & Dining
 2022-10-09,MARIANOS 522,-7.99,Groceries,Food & Dining
 2022-10-09,CHIPOTLE 2408,-10.3,Fast Food,Food & Dining
 2022-10-08,VENTRA MOBILE,-5.0,Public Transportation,Auto & Transport
+2022-10-07,APPLE.COM/BILL,-0.99,Electronics & Software,Shopping
+2022-10-06,TARGET        00023739,-19.64,Shopping,Root
+2022-10-05,POSHMARK,-34.92,Clothing,Shopping
+2022-10-05,Foremost Liquors,-9.98,Alcohol & Bars,Food & Dining
 2022-10-05,VENTRA MOBILE,-5.0,Public Transportation,Auto & Transport
+2022-10-04,Nick Bunde Paid Natalie Bunde,54.0,Income,Root
+2022-10-04,TARGET        00023739,-21.38,Shopping,Root
+2022-10-04,ALDI 40003,-87.89,Groceries,Food & Dining
+2022-10-04,MARIANOS #522,-23.71,Groceries,Food & Dining
 2022-10-04,TST* Millennium Hall,-28.84,Restaurants,Food & Dining
+2022-10-03,CVS/PHARMACY #08910,-4.47,Pharmacy,Health & Fitness
+2022-10-03,FOREMOST LIQUORS,-51.09,Alcohol & Bars,Food & Dining
 2022-10-03,TST* Roberts Pizza and D,-218.85,Restaurants,Food & Dining
 2022-10-03,LINCOLN STATION,-28.25,Service & Parts,Auto & Transport
 2022-10-03,Lee Schmalz Paid Murphy Hanson,-10.0,Restaurants,Food & Dining
+2022-10-02,confused,-60.0,Restaurants,Food & Dining
+2022-10-02,Stuff,20.0,Income,Root
+2022-10-02,Thanks,10.0,Income,Root
+2022-10-02,Stuff,30.0,Income,Root
 2022-10-02,ANNUAL MEMBERSHIP FEE,-95.0,Service Fee,Fees & Charges
 2022-10-02,you know what ,44.0,Income,Root
 2022-10-02,Mimosas,88.0,Income,Root
