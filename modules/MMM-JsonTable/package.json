@@ -1,0 +1,21 @@
+{
+	"name": "mmm-jsontable",
+	"version": "1.2.0",
+	"description": "A module for the MagicMirror² project which creates a table filled with a list gathered from a json request.",
+	"dependencies": {
+		"node-fetch": "^3.3.0"
+	},
+	"devDependencies": {
+		"eslint": "^8.31.0",
+		"eslint-config-airbnb-base": "^15.0.0",
+		"eslint-config-prettier": "^8.6.0",
+		"eslint-plugin-import": "^2.26.0",
+		"eslint-plugin-prettier": "^4.2.1",
+		"prettier": "^2.8.2"
+	},
+	"scripts": {
+		"lint": "eslint . && prettier --check .",
+		"lint:fix": "eslint --fix . && prettier --write .",
+		"test": "npm run lint"
+	}
+}
