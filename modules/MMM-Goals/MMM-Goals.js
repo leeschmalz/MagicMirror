@@ -1,4 +1,4 @@
-var ccspend, drinksconsumed;
+var ccspend, drinksconsumed, pagesread, milesRunGauge, weightlifting;
 Module.register("MMM-Goals", {
   // Default module config.
   defaults: {
@@ -92,8 +92,23 @@ Module.register("MMM-Goals", {
     var drinksConsumedGauge = document.createElement("div");
     drinksConsumedGauge.id = "drinksConsumedGauge";
 
+    var pagesReadGauge = document.createElement("div");
+    pagesReadGauge.id = "pagesReadGauge";
+
+    var milesRunGauge = document.createElement("div");
+    milesRunGauge.id = "milesRunGauge";
+
+    var weightLiftingGauge = document.createElement("div");
+    weightLiftingGauge.id = "weightLiftingGauge";
+
     wrapper.appendChild(creditCardSpendingGauge);
     wrapper.appendChild(drinksConsumedGauge);
+    wrapper.appendChild(pagesReadGauge);
+    wrapper.appendChild(milesRunGauge);
+    wrapper.appendChild(weightLiftingGauge);
+
+    wrapper.style.display = "flex";
+    wrapper.style.flexDirection = "row";
 
     return wrapper;
   },
@@ -118,13 +133,19 @@ Module.register("MMM-Goals", {
     Log.log(this.name + " socketNotificationReceived:" + notification);
 
     if (notification == "GOALS_UPDATE") {
-      // payload: {cc: x,drinks: y}
+      // payload: {cc: x,drinks: y,pages: z, miles: p, wl: q}
 
       var cc = payload.cc;
       var drinks = payload.drinks;
+      var pages = payload.pages;
+      var miles = payload.miles;
+      var wl = payload.wl;
 
-      ccspend.refresh(cc, 2000);
-      drinksconsumed.refresh(drinks, 6);
+      ccspend.refresh(cc, 2300);
+      drinksconsumed.refresh(drinks, 30);
+      pagesread.refresh(pages, 334);
+      milesrun.refresh(miles, 50);
+      weightlifting.refresh(wl, 9);
     }
   },
 
@@ -144,8 +165,8 @@ Module.register("MMM-Goals", {
         'id: "creditCardSpendingGauge",' +
         "value: 0," +
         "min: 0," +
-        "max: 1000," +
-        'title: "Credit Card Spending",' +
+        "max: 2300," +
+        'title: "Spending",' +
         'refreshAnimationType:"linear",' +
         'gaugeWidthScale: "0.8",' +
         'valueFontColor: "#fff",' +
@@ -158,13 +179,13 @@ Module.register("MMM-Goals", {
         "hideMinMax: false," +
         "decimals: 2," +
         'label: "$",' +
-        "humanFriendly: true," +
+        "humanFriendly: false," +
         'symbol: " "});' +
-        "drinksconsumed = new JustGage({" +
+        "drinksconsumed = new JustGage({" + // new guage
         'id: "drinksConsumedGauge",' +
         "value: 0," +
         "min: 0," +
-        "max: 100," +
+        "max: 30," +
         'title: "Alcoholic Drinks",' +
         'refreshAnimationType:"linear",' +
         'gaugeWidthScale: "0.8",' +
@@ -178,47 +199,68 @@ Module.register("MMM-Goals", {
         "hideMinMax: false," +
         "decimals: 2," +
         'label: "drinks",' +
+        "humanFriendly: true," +
+        'symbol: " "});' +
+        "pagesread = new JustGage({" + // new guage
+        'id: "pagesReadGauge",' +
+        "value: 0," +
+        "min: 0," +
+        "max: 334," +
+        'title: "Reading",' +
+        'refreshAnimationType:"linear",' +
+        'gaugeWidthScale: "0.8",' +
+        'valueFontColor: "#fff",' +
+        'valueFontFamily: "Roboto Condensed",' +
+        'titleFontFamily: "Roboto Condensed",' +
+        'titleFontColor: "#aaa",' +
+        'gaugeColor: "#000",' +
+        'levelColors: ["#fff"],' +
+        "hideInnerShadow: true," +
+        "hideMinMax: false," +
+        "decimals: 2," +
+        'label: "pages",' +
+        "humanFriendly: true," +
+        'symbol: " "});' +
+        "milesrun = new JustGage({" + // new guage
+        'id: "milesRunGauge",' +
+        "value: 0," +
+        "min: 0," +
+        "max: 50," +
+        'title: "Running",' +
+        'refreshAnimationType:"linear",' +
+        'gaugeWidthScale: "0.8",' +
+        'valueFontColor: "#fff",' +
+        'valueFontFamily: "Roboto Condensed",' +
+        'titleFontFamily: "Roboto Condensed",' +
+        'titleFontColor: "#aaa",' +
+        'gaugeColor: "#000",' +
+        'levelColors: ["#fff"],' +
+        "hideInnerShadow: true," +
+        "hideMinMax: false," +
+        "decimals: 2," +
+        'label: "miles",' +
+        "humanFriendly: true," +
+        'symbol: " "});' +
+        "weightlifting = new JustGage({" + // new guage
+        'id: "weightLiftingGauge",' +
+        "value: 0," +
+        "min: 0," +
+        "max: 9," +
+        'title: "Weight Lifting",' +
+        'refreshAnimationType:"linear",' +
+        'gaugeWidthScale: "0.8",' +
+        'valueFontColor: "#fff",' +
+        'valueFontFamily: "Roboto Condensed",' +
+        'titleFontFamily: "Roboto Condensed",' +
+        'titleFontColor: "#aaa",' +
+        'gaugeColor: "#000",' +
+        'levelColors: ["#fff"],' +
+        "hideInnerShadow: true," +
+        "hideMinMax: false," +
+        "decimals: 2," +
+        'label: "workouts",' +
         "humanFriendly: true," +
         'symbol: " "});';
-    } else {
-      script.innerHTML =
-        "var ccspend, drinksconsumed;" +
-        "ccspend = new JustGage({" +
-        'id: "creditCardSpendingGauge",' +
-        "value: 0," +
-        "min: 0," +
-        "max: 1000," +
-        'title: "Credit Card Spending",' +
-        'refreshAnimationType:"linear",' +
-        'gaugeWidthScale: "0.8",' +
-        'valueFontColor: "#fff",' +
-        'valueFontFamily: "Roboto Condensed",' +
-        'titleFontFamily: "Roboto Condensed",' +
-        'titleFontColor: "#aaa",' +
-        "formatNumber: true," +
-        "hideMinMax: false," +
-        "decimals: 2," +
-        'label: "$",' +
-        "humanFriendly: true," +
-        'symbol: " "});' +
-        "drinksconsumed = new JustGage({" +
-        'id: "drinksConsumedGauge",' +
-        "value: 0," +
-        "min: 0," +
-        "max: 100," +
-        'title: "Alcoholic Drinks",' +
-        'refreshAnimationType:"linear",' +
-        'gaugeWidthScale: "0.8",' +
-        'valueFontColor: "#fff",' +
-        'valueFontFamily: "Roboto Condensed",' +
-        'titleFontFamily: "Roboto Condensed",' +
-        'titleFontColor: "#aaa",' +
-        "formatNumber: true," +
-        "hideMinMax: false," +
-        "decimals: 2," +
-        'label: "drinks",' +
-        "humanFriendly: true," +
-        'symbol: "  "});';
     }
     $(script).appendTo("body");
   }

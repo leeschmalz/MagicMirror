@@ -4,13 +4,14 @@ import time
 import mintapi
 from process_transaction_data import process_transactions
 
-next_minute = datetime.now().minute+1
-while True:
-	if (datetime.now().second == 1) & (datetime.now().minute == next_minute):
-		print('Gathering transaction data from Mint.')
-		os.system('mintapi --headless --config-file mint_config.cfg leeschmalz@gmail.com mwWx2cr4dEmahEmmHFYU!') # REDACTION MARKER
-		time.sleep(2) # make sure csv is written
-		print('Processing transactions.')
-		process_transactions()
-		print('Transactions data complete.')
+# next_minute = datetime.now().minute+1
+# while True:
+	# if (datetime.now().second == 1) & (datetime.now().minute == next_minute):
+		# print('Gathering transaction data from Mint.')
+		#os.system('mintapi --headless --config-file /home/pi/Documents/MagicMirror/extdata/mint_config.cfg leeschmalz@gmail.com mwWx2cr4dEmahEmmHFYU!') # REDACTION MARKER
+		#time.sleep(2) # make sure csv is written
+
+print('Processing transactions.')
+process_transactions()
+print('Transactions data complete.')
 		

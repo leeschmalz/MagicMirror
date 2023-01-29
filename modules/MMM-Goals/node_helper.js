@@ -4,31 +4,122 @@ var fs = require("fs");
 var moment = require("moment");
 const fetch = require("node-fetch");
 
+let firstWrite = false;
+
 module.exports = NodeHelper.create({
   start: function () {
     console.log(this.name + " helper started ...");
   },
-  socketNotificationReceived: function (notification, payload) {
+  async socketNotificationReceived(notification, payload) {
     if (notification == "GOALS_UPDATE") {
-      this.sendSocketNotification("GOALS_UPDATE", refreshData());
+      try {
+        const data = await refreshData();
+        this.sendSocketNotification("GOALS_UPDATE", data);
+      } catch (error) {
+        console.error(error);
+      }
     }
   }
 });
 
-// TO DO: for some reason this returns 400 error. see get_attribute_history.py for working python version of it
+// gets alcoholic_drinks param from exist api
 async function getDrinks() {
-  const response = await fetch("https://exist.io/api/2/attributes/values/", {
-    method: "GET",
-    params: {
-      attribute: "alcoholic_drinks",
-      limit: 100
-    },
-    headers: {
-      Authorization: "Token 3e917968331b2a09c0e8f3e808af2aa7500414a2"
-    }
+  console.log("Refreshing Drinks");
+
+  const searchParamsDrinks = new URLSearchParams({
+    attribute: "alcoholic_drinks",
+    limit: 100
   });
 
-  return response;
+  let drinksResponse = await fetch(
+    "https://exist.io/api/2/attributes/values/?" + searchParamsDrinks,
+    {
+      method: "GET",
+      headers: {
+        Authorization: "Token 3e917968331b2a09c0e8f3e808af2aa7500414a2"
+      }
+    }
+  );
+
+  let drinksResponseData = await drinksResponse.json();
+  let drinksResponseDataResults = await drinksResponseData.results;
+
+  return drinksResponseDataResults;
+}
+
+// gets pages read param from exist api
+async function getPages() {
+  console.log("Refreshing Pages");
+
+  const searchParamsPages = new URLSearchParams({
+    attribute: "pages_read",
+    limit: 100
+  });
+
+  let pagesResponse = await fetch(
+    "https://exist.io/api/2/attributes/values/?" + searchParamsPages,
+    {
+      method: "GET",
+      headers: {
+        Authorization: "Token 3e917968331b2a09c0e8f3e808af2aa7500414a2"
+      }
+    }
+  );
+
+  let pagesResponseData = await pagesResponse.json();
+  let pagesResponseDataResults = await pagesResponseData.results;
+
+  return pagesResponseDataResults;
+}
+
+// gets workouts_distance attribute from exist api
+async function getMiles() {
+  console.log("Refreshing Miles");
+
+  const searchParamsMiles = new URLSearchParams({
+    attribute: "workouts_distance",
+    limit: 100
+  });
+
+  let milesResponse = await fetch(
+    "https://exist.io/api/2/attributes/values/?" + searchParamsMiles,
+    {
+      method: "GET",
+      headers: {
+        Authorization: "Token 3e917968331b2a09c0e8f3e808af2aa7500414a2"
+      }
+    }
+  );
+
+  let milesResponseData = await milesResponse.json();
+  let milesResponseDataResults = await milesResponseData.results;
+
+  return milesResponseDataResults;
+}
+
+// gets workouts_distance attribute from exist api
+async function getWL() {
+  console.log("Refreshing WL");
+
+  const searchParamsWL = new URLSearchParams({
+    attribute: "weight_lifting",
+    limit: 100
+  });
+
+  let wlResponse = await fetch(
+    "https://exist.io/api/2/attributes/values/?" + searchParamsWL,
+    {
+      method: "GET",
+      headers: {
+        Authorization: "Token 3e917968331b2a09c0e8f3e808af2aa7500414a2"
+      }
+    }
+  );
+
+  let wlResponseData = await wlResponse.json();
+  let wlResponseDataResults = await wlResponseData.results;
+
+  return wlResponseDataResults;
 }
 
 async function refreshData() {
@@ -40,8 +131,7 @@ async function refreshData() {
   // Convert the data to a string and split it into rows
   var rows = data.toString().split("\n");
 
-  // Get the current date and the start and end of the week
-  var now = moment();
+  // Get the current date and the start and end of the month
   var startOfMonth = moment().startOf("month");
   var endOfMonth = moment().endOf("month");
 
@@ -52,16 +142,158 @@ async function refreshData() {
   });
 
   // Calculate the sum of the "amount" column
-  var sum_spending = filteredRows.reduce((total, row) => {
-    var amount = row.split(",")[2]; // Assumes the "amount" column is the second column
+  var monthlySpending = filteredRows.reduce((total, row) => {
+    var amount = row.split(",")[2]; // Assumes the "amount" column is the second (third) column
     return total + parseFloat(amount) * -1;
   }, 0);
 
-  // GET ALCOHOLIC DRINKS FROM EXIST
-  const response = await getDrinks();
+  // ALCOHOLIC DRINKS
+  const currentDrinksRaw = fs.readFileSync(
+    "/home/pi/Documents/MagicMirror/extdata/current_drinks.json"
+  );
+  const currentDrinks = JSON.parse(currentDrinksRaw);
+  const currentPeriodDrinks = new Date().getMinutes();
 
-  console.log(response);
+  // refresh drinks if it hasnt been refreshed in the last period (i.e minute, hour)
+  if (currentDrinks.lastRefreshed != currentPeriodDrinks) {
+    // GET ALCOHOLIC DRINKS FROM EXIST
+    const drinkData = await getDrinks();
+    const currentMonth = new Date().getMonth();
+    const filteredResults = drinkData.filter((result) => {
+      const resultDate = new Date(`${result.date}T00:00:00.000-06:00`); // UTC to CST
+      return resultDate.getMonth() === currentMonth;
+    });
+
+    const monthlyDrinks = filteredResults.reduce(
+      (acc, cur) => acc + cur.value,
+      0
+    );
+
+    const currentDrinks = {
+      lastRefreshed: currentPeriodDrinks,
+      drinks: monthlyDrinks
+    };
+
+    fs.writeFileSync(
+      "/home/pi/Documents/MagicMirror/extdata/current_drinks.json",
+      JSON.stringify(currentDrinks)
+    );
+  }
+
+  var monthlyDrinks = currentDrinks.drinks;
+  // ALCOHOLIC DRINKS
+
+  // PAGES READ
+  const currentPagesRaw = fs.readFileSync(
+    "/home/pi/Documents/MagicMirror/extdata/current_pages.json"
+  );
+  const currentPages = JSON.parse(currentPagesRaw);
+  const currentPeriodPages = new Date().getMinutes();
+
+  // refresh drinks if it hasnt been refreshed in the last period (i.e minute, hour)
+  if (currentPages.lastRefreshed != currentPeriodPages) {
+    // GET PAGES FROM EXIST
+    const pagesData = await getPages();
+
+    const currentMonth = new Date().getMonth();
+    const filteredResults = pagesData.filter((result) => {
+      const resultDate = new Date(`${result.date}T00:00:00.000-06:00`); // UTC to CST
+      return resultDate.getMonth() === currentMonth;
+    });
+
+    const monthlyPages = filteredResults.reduce(
+      (acc, cur) => acc + cur.value,
+      0
+    );
+
+    const currentPages = {
+      lastRefreshed: currentPeriodPages,
+      pages: monthlyPages
+    };
+
+    fs.writeFileSync(
+      "/home/pi/Documents/MagicMirror/extdata/current_pages.json",
+      JSON.stringify(currentPages)
+    );
+  }
+  var monthlyPages = currentPages.pages;
+  // PAGES READ
+
+  // MILES RUN
+  const currentMilesRaw = fs.readFileSync(
+    "/home/pi/Documents/MagicMirror/extdata/current_miles.json"
+  );
+  const currentMiles = JSON.parse(currentMilesRaw);
+  const currentPeriodMiles = new Date().getMinutes();
+
+  if (currentMiles.lastRefreshed != currentPeriodMiles) {
+    // GET MILES FROM EXIST
+    const milesData = await getMiles();
+
+    const currentMonth = new Date().getMonth();
+    const filteredResults = milesData.filter((result) => {
+      const resultDate = new Date(`${result.date}T00:00:00.000-06:00`); // UTC to CST
+      return resultDate.getMonth() === currentMonth;
+    });
+
+    const monthlyMilesRaw = filteredResults.reduce(
+      (acc, cur) => acc + cur.value,
+      0
+    );
+    const monthlyMiles = monthlyMilesRaw * 0.62; // convert from km
+
+    const currentMiles = {
+      lastRefreshed: currentPeriodMiles,
+      miles: monthlyMiles
+    };
+
+    fs.writeFileSync(
+      "/home/pi/Documents/MagicMirror/extdata/current_miles.json",
+      JSON.stringify(currentMiles)
+    );
+  }
+  var monthlyMiles = currentMiles.miles;
+  // MILES RUN
+
+  // WEIGHT LIFTING
+  const currentWLRaw = fs.readFileSync(
+    "/home/pi/Documents/MagicMirror/extdata/current_wl.json"
+  );
+  const currentWL = JSON.parse(currentWLRaw);
+  const currentPeriodWL = new Date().getMinutes();
+
+  if (currentWL.lastRefreshed != currentPeriodWL) {
+    // GET WEIGHT LIFTING FROM EXIST
+    const wlData = await getWL();
+
+    const currentMonth = new Date().getMonth();
+    const filteredResults = wlData.filter((result) => {
+      const resultDate = new Date(`${result.date}T00:00:00.000-06:00`); // UTC to CST
+      return resultDate.getMonth() === currentMonth;
+    });
+
+    const monthlyWL = filteredResults.reduce((acc, cur) => acc + cur.value, 0);
+
+    const currentWL = {
+      lastRefreshed: currentPeriodWL,
+      wl: monthlyWL
+    };
+
+    fs.writeFileSync(
+      "/home/pi/Documents/MagicMirror/extdata/current_wl.json",
+      JSON.stringify(currentWL)
+    );
+  }
+
+  var monthlyWL = currentWL.wl;
+  // WEIGHT LIFTING
 
   // Return the sums
-  return { cc: sum_spending, drinks: 0 };
+  return {
+    cc: monthlySpending,
+    drinks: monthlyDrinks,
+    pages: monthlyPages,
+    miles: monthlyMiles.toFixed(2),
+    wl: monthlyWL
+  };
 }
