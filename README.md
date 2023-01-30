@@ -1,9 +1,6 @@
 ## MagicMirror
 A custom build of the [MagicMirror](https://magicmirror.builders) project. Includes off-the-shelf standard modules, standard modules customized, and personal modules hacked together from scratch.
 
-## End Result
-![Example Screen](example-screen.png)
-
 ## Links
 - Website: [https://magicmirror.builders](https://magicmirror.builders)
 - Documentation: [https://docs.magicmirror.builders](https://docs.magicmirror.builders)
@@ -12,3 +9,7 @@ A custom build of the [MagicMirror](https://magicmirror.builders) project. Inclu
 - Discord: [https://discord.gg/J5BAtvx](https://discord.gg/J5BAtvx)
 - Blog: [https://michaelteeuw.nl/tagged/magicmirror](https://michaelteeuw.nl/tagged/magicmirror)
 - Donations: [https://magicmirror.builders/#donate](https://magicmirror.builders/#donate)
+
+## End Result
+![Example Screen](example-screen.png)
+
