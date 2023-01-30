@@ -2,6 +2,7 @@
 A custom build of the MagicMirror project. Includes off-the-shelf standard modules, standard modules customized, and personal modules hacked together from scratch.
 
 ## End Result
+![image](screen-example.png)
 
 ## Links
 - Website: [https://magicmirror.builders](https://magicmirror.builders)
