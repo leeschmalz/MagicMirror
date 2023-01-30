@@ -3,7 +3,7 @@ var defaultClient = StravaApiV3.ApiClient.instance;
 
 // Configure OAuth2 access token for authorization: strava_oauth
 var strava_oauth = defaultClient.authentications["strava_oauth"];
-strava_oauth.accessToken = "6c60601c5bd24e0930297dd8b38756a7cfb06264";
+strava_oauth.accessToken = "[token]";
 
 var api = new StravaApiV3.ActivitiesApi();
 

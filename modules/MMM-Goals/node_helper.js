@@ -36,7 +36,7 @@ async function getDrinks() {
     {
       method: "GET",
       headers: {
-        Authorization: "Token 3e917968331b2a09c0e8f3e808af2aa7500414a2"
+        Authorization: "Token [token]"
       }
     }
   );
@@ -61,7 +61,7 @@ async function getPages() {
     {
       method: "GET",
       headers: {
-        Authorization: "Token 3e917968331b2a09c0e8f3e808af2aa7500414a2"
+        Authorization: "Token [token]"
       }
     }
   );
@@ -86,7 +86,7 @@ async function getMiles() {
     {
       method: "GET",
       headers: {
-        Authorization: "Token 3e917968331b2a09c0e8f3e808af2aa7500414a2"
+        Authorization: "Token [token]"
       }
     }
   );
@@ -111,7 +111,7 @@ async function getWL() {
     {
       method: "GET",
       headers: {
-        Authorization: "Token 3e917968331b2a09c0e8f3e808af2aa7500414a2"
+        Authorization: "Token [token]"
       }
     }
   );
