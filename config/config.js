@@ -59,7 +59,7 @@ let config = {
 				//type: "current",
 				//location: "Chicago",
 				//locationID: "4887398", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
-				//apiKey: "0f0847c995bbb11d2e6064e82fdd272f",
+				//apiKey: "",
 				//onlyTemp: false,
 				//roundTemp: true,
 				//degreeLabel: true,
@@ -75,7 +75,7 @@ let config = {
 				//type: "forecast",
 				//location: "Chicago",
 				//locationID: "4887398", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
-				//apiKey: "0f0847c995bbb11d2e6064e82fdd272f",
+				//apiKey: "",
 				//colored: true,
 				//fadePoint:0.5
 			//}
@@ -87,7 +87,7 @@ let config = {
 		  classes: "default everyone",
 		  disabled: false,
 		  config: {
-			apikey: "1f2b7a974c2266cd26ee0d8579ff87ff",
+			apikey: "",
 			latitude: "41.973690",
 			longitude: "-87.654520",     
 			iconset: "6oa",
@@ -113,7 +113,7 @@ let config = {
 			calendars: [
 					{
 						symbol: 'calendar-check-o ',
-						url: "webcal://p59-caldav.icloud.com/published/2/MTQ4MDIxMTg1NTE0ODAyMcTdYM8lHl_S6Rdx8DDI9_LsjgD4uOOrTVRyeDTT1Rpg"
+						url: "webcal://p59-caldav.icloud.com/published/2/"
 					}
 				]
 			},
@@ -142,11 +142,11 @@ let config = {
 			//position: 'bottom_right',
 			//config: {
 				//updateTime: 60000, // 1 minute, the API does not update much more often so going below this is unnecessary
-				//ctaApiKey: 'VgjpTiGv2Gid4q2iQDh9qxgzr',
+				//ctaApiKey: '',
 				//busStopName: '',  // String value, Name your bus stop
 				////stopId: 561, // Bus station ID: Chicago and Milwaukee example; go to http://www.transitchicago.com/riding_cta/systemguide/default.aspx to find your stop ID
 				////maxResult: 1,  // The maximum number of incoming bussesy you want to display for bus stops
-				//ctaApiKeyTrain: '392d9cb864b147d8a982712456dd5ba6',
+				//ctaApiKeyTrain: '',
 				//trainStopName: 'Argyle',  //String value, name your train stop
 				//trainStationID: 41200, //Train station ID:  Chicago Blue line example; http://www.transitchicago.com/developers/ttdocs/default.aspx#_Toc296199909
 				//maxResultTrain: 5, // Max number of incoming trains to disply
@@ -159,7 +159,7 @@ let config = {
 			header: 'To Do', // This is optional
 			config: { // See 'Configuration options' for more information.
 				hideWhenEmpty: false,
-				accessToken: 'ade8153afa85634ef5f4e858e03b864fa9528410',
+				accessToken: '',
 				maximumEntries: 10,
 				updateInterval: 10*60*1000, // Update every 10 minutes
 				fade: false,      
@@ -181,7 +181,7 @@ let config = {
 			module: "MMM-cryptocurrency",
 			position: "bottom_left",
 			config: {
-				apikey: 'ca8e85bb-b517-46b1-867e-d87c14765b49',
+				apikey: '',
 				currency: ['bitcoin', 'ethereum'],
 				conversion: 'USD',
 				headers: ['change24h', 'change7d'],
@@ -195,7 +195,7 @@ let config = {
             header: "Oura Data",
             position: "bottom_right",
             config: {
-				token: "RAANNMMOTVQEBYM33IG66LELI5KXKRY6",
+				token: "",
                 charts: ["scores"],  // Which charts to display; currently one or both of ["sleep", "heartrate", "scores"]; eventually to be several
                 unit:  "weeks",         // One of [months, days, weeks]
                 interval: 1,            // Integer interval to combine with unit for length of time to get & display data
@@ -204,8 +204,6 @@ let config = {
         },
 	]
 };
-// command to get mint data
-// mintapi --headless --config-file mint_config.cfg leeschmalz@gmail.com 
 
 /*************** DO NOT EDIT THE LINE BELOW ***************/
 if (typeof module !== "undefined") {module.exports = config;}
