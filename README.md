@@ -1,5 +1,5 @@
 ## MagicMirror
-Personal build of the [MagicMirror](https://magicmirror.builders) project. Includes off-the-shelf standard modules, standard modules with custom tweaks, and other modules hacked together from scratch.
+Personal build of the [MagicMirror](https://magicmirror.builders) project. Includes custom tweaks to 3rd-party modules and other modules hacked together from scratch.
 
 ## Links
 - Website: [https://magicmirror.builders](https://magicmirror.builders)
