@@ -1,7 +1,12 @@
 [
-	{ "date": "2023-01-28", "description": "STARBUCKS STORE", "amount": "$2.82" },
-	{ "date": "2023-01-28", "description": "VENTRA MOBILE", "amount": "$5.0" },
-	{ "date": "2023-01-26", "description": "TARGET", "amount": "$89.99" },
-	{ "date": "2023-01-26", "description": "VENTRA MOBILE", "amount": "$5.0" },
-	{ "date": "2023-01-25", "description": "MARIANOS 522", "amount": "$63.41" }
+	{ "date": "2024-05-01", "description": "LAKEVIEW LN SRV MTG ", "amount": "$2258.53" },
+	{ "date": "2024-05-01", "description": "AUTOPAY XXXXXXXXRAUT", "amount": "$-38.9" },
+	{ "date": "2024-04-29", "description": "Vanguard", "amount": "$283.47" },
+	{ "date": "2024-04-28", "description": "138 GREAT CLIPS AT H", "amount": "$24.0" },
+	{ "date": "2024-04-26", "description": "GUSTO PAY   6semk108", "amount": "$-3069.83" },
+	{ "date": "2024-04-25", "description": "River Financial (Riv", "amount": "$875.0" },
+	{ "date": "2024-04-24", "description": "CPENERGY MNGCO MGC A", "amount": "$87.69" },
+	{ "date": "2024-04-22", "description": "Vanguard", "amount": "$283.54" },
+	{ "date": "2024-04-19", "description": "The Knot Newlywe The", "amount": "$-100.0" },
+	{ "date": "2024-04-15", "description": "CHATGPT SUBSCRIPTION", "amount": "$20.0" }
 ]

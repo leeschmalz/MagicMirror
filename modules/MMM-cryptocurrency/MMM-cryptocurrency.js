@@ -253,11 +253,13 @@ Module.register("MMM-cryptocurrency", {
 	 */
 	getWantedCurrencies: function (chosenCurrencies, apiResult) {
 		var filteredCurrencies = [];
+		var index = 0;
 		for (var symbol in apiResult.data) {
 			var remoteCurrency = apiResult.data[symbol];
-			remoteCurrency = this.formatPrice(remoteCurrency);
+			remoteCurrency = this.formatPrice(remoteCurrency, index);
 			remoteCurrency = this.formatPercentage(remoteCurrency);
 			filteredCurrencies.push(remoteCurrency);
+			index++;
 		}
 		return filteredCurrencies;
 	},
@@ -269,16 +271,23 @@ Module.register("MMM-cryptocurrency", {
 	 * @param apiResult
 	 * @returns {*}
 	 */
-	formatPrice: function (apiResult) {
+	formatPrice: function (apiResult, index) {
 		var rightCurrencyFormat = this.config.conversion.toUpperCase();
+		var price = apiResult["quote"][rightCurrencyFormat]["price"];
+
+		// Apply decimal places based on index
+		if (Array.isArray(this.config.maximumFractionDigits)) {
+			var decimals = this.config.maximumFractionDigits[index] || 2;
+			price = this.roundNumber(price, decimals);
+		}
 
 		var options = {
 			style: "currency",
-			currency: this.config.conversion
+			currency: this.config.conversion,
+			maximumFractionDigits: Array.isArray(this.config.maximumFractionDigits) ? this.config.maximumFractionDigits[index] : 2
 		};
-		// TODO: iterate through all quotes and process properly
-		apiResult["price"] = this.numberToLocale(apiResult["quote"][rightCurrencyFormat]["price"], options);
 
+		apiResult["price"] = price.toLocaleString(this.config.language, options);
 		return apiResult;
 	},
 

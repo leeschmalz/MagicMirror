@@ -88,8 +88,8 @@ let config = {
 		  disabled: false,
 		  config: {
 			apikey: "1f2b7a974c2266cd26ee0d8579ff87ff",
-			latitude: "41.973690",
-			longitude: "-87.654520",     
+			latitude: "45.088200",
+			longitude: "-93.738457",     
 			iconset: "6oa",
 			concise: false,
 			forecastLayout: "tiled",
@@ -166,15 +166,7 @@ let config = {
 				// projects and/or labels is mandatory:
 				projects: [ 2306461384 ], 
 				labels: ["Task"], // Tasks for any projects with these labels will be shown.
-				displayTasksWithinDays: 3
-		  }
-		},
-		{
-		  module: 'MMM-JsonTable',
-		  position: 'bottom_left',
-		  header: 'Recent Transactions',
-		  config: {
-			filepath: '/home/pi/Documents/MagicMirror/extdata/latest_transactions.json'
+				displayTasksWithinDays: 1
 		  }
 		},
 		{
@@ -182,26 +174,40 @@ let config = {
 			position: "bottom_left",
 			config: {
 				apikey: 'ca8e85bb-b517-46b1-867e-d87c14765b49',
-				currency: ['bitcoin', 'ethereum'],
+				apiDelay: 1,
+				currency: ['bitcoin', 'ethereum', 'xrp'],
 				conversion: 'USD',
 				headers: ['change24h', 'change7d'],
 				displayType: 'logo',
 				showGraphs: true,
-				significantDigits:5
+				maximumFractionDigits: [0,2,0] // these are out of order for whatever reason: btc, xrp, eth
 			}
 		},
 		{
-            module: 'MMM-Oura2',
-            header: "Oura Data",
-            position: "bottom_right",
-            config: {
-				token: "RAANNMMOTVQEBYM33IG66LELI5KXKRY6",
-                charts: ["scores"],  // Which charts to display; currently one or both of ["sleep", "heartrate", "scores"]; eventually to be several
-                unit:  "weeks",         // One of [months, days, weeks]
-                interval: 1,            // Integer interval to combine with unit for length of time to get & display data
-                fontSize: 20
-            }
-        },
+			module: "MMM-AVStock",
+			position: "bottom_left", //"bottom_bar" is better for `mode:ticker`
+			config: {
+			timeFormat: "DD-MM HH:mm",
+			width: 60,
+			symbols : ["MSTR","COIN","NVDA","GC=F","^GSPC"],
+			alias : ["MSTR","COIN","NVDA","GOLD","S&P500"],
+			tickerDuration: 20,
+			chartDays: 90,
+			maxTableRows: null,
+			mode : "table",                  // "table" or "ticker"
+			chartInterval: "daily",          // choose from ["intraday", "daily", "weekly", "monthly"]
+			decimals : 2,
+			showPurchasePrices: false,
+			showPerformance2Purchase: false,
+			showChart: false,
+			debug: false
+		}
+		},
+		{
+			module:'MMM-TiHimawari8Earth',
+			position:'bottom_right',
+			config:{}
+		}
 	]
 };
 // command to get mint data

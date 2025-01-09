@@ -40,6 +40,8 @@ def process_transactions():
 	transactions = transactions[~(transactions["description"].str.contains("Spotify"))]
 	transactions = transactions[~(transactions["description"].str.contains("SPOTIFY"))]
 	transactions = transactions[~(transactions["description"].str.contains("EXIST.IO"))]
+	transactions = transactions[~(transactions["description"].str.contains("Exempt"))]
+	transactions = transactions[~(transactions["description"].str.contains("ROCK UTILITY"))]
 	
 	transactions = transactions[~((transactions["description"].str.contains("ACH Deposit Internet transfer")) & 
 								  (transactions["accountRef.name"].str.contains("Apple Card")))]
@@ -60,4 +62,4 @@ def process_transactions():
 	transactions['description'] = transactions['description'].str.strip()
 	transactions['description'] = transactions['description'].str[:20]
 
-	transactions[['date','description','amount']].head(5).to_json('/home/pi/Documents/MagicMirror/extdata/latest_transactions.json',orient='records')
+	transactions[['date','description','amount']].head(10).to_json('/home/pi/Documents/MagicMirror/extdata/latest_transactions.json',orient='records')
