@@ -133,27 +133,9 @@ async function getWL() {
 }
 
 async function refreshData() {
-	// GET SPENDING FROM PRE-PROCESSING MINT API FILE
-	var data = fs.readFileSync("/home/pi/Documents/MagicMirror/extdata/current_transaction_processed.csv");
-
-	// Convert the data to a string and split it into rows
-	var rows = data.toString().split("\n");
-
 	// Get the current date and the start and end of the month
 	var startOfMonth = moment().startOf("month");
 	var endOfMonth = moment().endOf("month");
-
-	// Filter the rows to keep only those with a "date" within this month
-	var filteredRows = rows.filter((row) => {
-		var date = row.split(",")[0]; // Assumes the "date" column is the first column
-		return moment(date, "YYYY-MM-DD").isBetween(startOfMonth, endOfMonth, null, "[]");
-	});
-
-	// Calculate the sum of the "amount" column
-	var monthlySpending = filteredRows.reduce((total, row) => {
-		var amount = row.split(",")[2]; // Assumes the "amount" column is the second (third) column
-		return total + parseFloat(amount) * -1;
-	}, 0);
 
 	// ALCOHOLIC DRINKS
 	const currentDrinksRaw = fs.readFileSync("/home/pi/Documents/MagicMirror/extdata/current_drinks.json");
@@ -279,7 +261,7 @@ async function refreshData() {
 
 	// Return the sums
 	return {
-		cc: monthlySpending,
+		cc: 0, // deprecated
 		drinks: monthlyDrinks,
 		pages: monthlyPages,
 		miles: monthlyMiles.toFixed(2),
