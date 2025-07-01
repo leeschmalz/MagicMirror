@@ -189,6 +189,7 @@ let config = {
 				logoHeaderText: '',
 				showGraphs: true,
 				maximumFractionDigits: [0,2,0], // these are out of order for whatever reason: btc, xrp, eth
+				roundToNearest: [1000, 0.1, 100],
 				style: 'decimal'
 			}
 		},

@@ -13,7 +13,8 @@ Module.register("MMM-cryptocurrency", {
 		maximumFractionDigits: 5,
 		coloredLogos: true,
 		fontSize: "xx-large",
-		apiDelay: 5
+		apiDelay: 5,
+		roundToNearest: undefined
 	},
 
 	sparklineIds: {
@@ -275,6 +276,16 @@ Module.register("MMM-cryptocurrency", {
 		var rightCurrencyFormat = this.config.conversion.toUpperCase();
 		var price = apiResult["quote"][rightCurrencyFormat]["price"];
 
+		// Apply roundToNearest if configured
+		if (this.config.roundToNearest !== undefined) {
+			var roundToValue = this.config.roundToNearest;
+			// Support array of values for different currencies
+			if (Array.isArray(this.config.roundToNearest)) {
+				roundToValue = this.config.roundToNearest[index] || this.config.roundToNearest[0];
+			}
+			price = this.roundToNearestValue(price, roundToValue);
+		}
+
 		// Apply decimal places based on index
 		if (Array.isArray(this.config.maximumFractionDigits)) {
 			var decimals = this.config.maximumFractionDigits[index] || 2;
@@ -388,6 +399,20 @@ Module.register("MMM-cryptocurrency", {
 		var tempNumber = number * factor;
 		var roundedTempNumber = Math.round(tempNumber);
 		return roundedTempNumber / factor;
+	},
+
+	/**
+	 * Rounds a number to the nearest specified value (e.g., 0.01, 0.1, 1, 10, 100, 1000)
+	 *
+	 * @param number The number to round
+	 * @param nearestValue The value to round to (e.g., 0.01 for nearest cent, 10 for nearest 10)
+	 * @returns {number} The rounded number
+	 */
+	roundToNearestValue: function (number, nearestValue) {
+		if (nearestValue === undefined || nearestValue <= 0) {
+			return number;
+		}
+		return Math.round(number / nearestValue) * nearestValue;
 	},
 
 	/**
