@@ -178,6 +178,7 @@ let config = {
 		{
 			module: "MMM-cryptocurrency",
 			position: "bottom_left",
+			header: "",
 			config: {
 				apikey: '097fbd21-774e-46d2-8368-ee0f475efc7b',
 				apiDelay: 5,
@@ -185,6 +186,7 @@ let config = {
 				conversion: 'USD',
 				headers: ['change24h', 'change7d'],
 				displayType: 'logo',
+				logoHeaderText: '',
 				showGraphs: true,
 				maximumFractionDigits: [0,2,0], // these are out of order for whatever reason: btc, xrp, eth
 				style: 'decimal'
