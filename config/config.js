@@ -124,14 +124,14 @@ let config = {
 				]
 			},
 		},
-		{
-			module: "MMM-Goals",
-			position: "middle_center",
-			config: {
-			  gaugeType: 'minimal',
-			  interval: 5
-			}
-		 },
+		// {
+		// 	module: "MMM-Goals",
+		// 	position: "middle_center",
+		// 	config: {
+		// 	  gaugeType: 'minimal',
+		// 	  interval: 5
+		// 	}
+		//  },
 		{
 			module: "MMM-CalendarExt3",
 			position: "middle_center",
@@ -209,12 +209,12 @@ let config = {
 			showChart: false,
 			debug: false
 		}
-		},
-		{
-			module:'MMM-TiHimawari8Earth',
-			position:'bottom_right',
-			config:{}
 		}
+		// {
+		// 	module:'MMM-TiHimawari8Earth',
+		// 	position:'bottom_right',
+		// 	config:{}
+		// }
 	]
 };
 // command to get mint data
