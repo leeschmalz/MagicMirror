@@ -7,7 +7,10 @@
 }
 
 .MMM-OpenWeatherMapForecast .forecast-container .forecast-item .temperature,
-.MMM-OpenWeatherMapForecast .forecast-container .forecast-item .temperature-container {
+.MMM-OpenWeatherMapForecast
+  .forecast-container
+  .forecast-item
+  .temperature-container {
   color: #ffffff;
 }
 
@@ -17,12 +20,18 @@
 }
 
 .MMM-OpenWeatherMapForecast .wrapper.colored .temperature .high-temperature,
-.MMM-OpenWeatherMapForecast .wrapper.colored .temperature-container .high-temperature {
+.MMM-OpenWeatherMapForecast
+  .wrapper.colored
+  .temperature-container
+  .high-temperature {
   color: #f8dd70;
 }
 
 .MMM-OpenWeatherMapForecast .wrapper.colored .temperature .low-temperature,
-.MMM-OpenWeatherMapForecast .wrapper.colored .temperature-container .low-temperature {
+.MMM-OpenWeatherMapForecast
+  .wrapper.colored
+  .temperature-container
+  .low-temperature {
   color: #6fc4f5;
 }
 
@@ -70,7 +79,11 @@
 /* Inline icons */
 
 .MMM-OpenWeatherMapForecast .inline-icon,
-.MMM-OpenWeatherMapForecast .wrapper.tiled .forecast-container .forecast-item .inline-icon {
+.MMM-OpenWeatherMapForecast
+  .wrapper.tiled
+  .forecast-container
+  .forecast-item
+  .inline-icon {
   display: inline-block;
   width: 24px;
   height: 24px;
@@ -81,8 +94,12 @@
 
 /* Extra Current Conditions */
 
-.MMM-OpenWeatherMapForecast .extra-current-conditions-wrapper .temperature-container,
-.MMM-OpenWeatherMapForecast .extra-current-conditions-wrapper .precipitation-container,
+.MMM-OpenWeatherMapForecast
+  .extra-current-conditions-wrapper
+  .temperature-container,
+.MMM-OpenWeatherMapForecast
+  .extra-current-conditions-wrapper
+  .precipitation-container,
 .MMM-OpenWeatherMapForecast .extra-current-conditions-wrapper .wind-container {
   display: inline-block;
   white-space: nowrap;
@@ -118,7 +135,9 @@
   border-top: solid 1px #222;
 }
 
-.MMM-OpenWeatherMapForecast .wrapper.with-forecast-header.tiled .forecast-container {
+.MMM-OpenWeatherMapForecast
+  .wrapper.with-forecast-header.tiled
+  .forecast-container {
   border-top: none;
 }
 
@@ -134,48 +153,120 @@
   text-align: center;
 }
 
-.MMM-OpenWeatherMapForecast .wrapper.tiled .forecast-container .forecast-item .time,
-.MMM-OpenWeatherMapForecast .wrapper.tiled .forecast-container .forecast-item .forecast-icon-container,
-.MMM-OpenWeatherMapForecast .wrapper.tiled .forecast-container .forecast-item .forecast-icon,
-.MMM-OpenWeatherMapForecast .wrapper.tiled .forecast-container .forecast-item .temperature,
-.MMM-OpenWeatherMapForecast .wrapper.tiled .forecast-container .forecast-item .temperature-container,
-.MMM-OpenWeatherMapForecast .wrapper.tiled .forecast-container .forecast-item .precipitation-container,
-.MMM-OpenWeatherMapForecast .wrapper.tiled .forecast-container .forecast-item .wind-container,
-.MMM-OpenWeatherMapForecast .wrapper.tiled .forecast-container .forecast-item .day-name {
+.MMM-OpenWeatherMapForecast
+  .wrapper.tiled
+  .forecast-container
+  .forecast-item
+  .time,
+.MMM-OpenWeatherMapForecast
+  .wrapper.tiled
+  .forecast-container
+  .forecast-item
+  .forecast-icon-container,
+.MMM-OpenWeatherMapForecast
+  .wrapper.tiled
+  .forecast-container
+  .forecast-item
+  .forecast-icon,
+.MMM-OpenWeatherMapForecast
+  .wrapper.tiled
+  .forecast-container
+  .forecast-item
+  .temperature,
+.MMM-OpenWeatherMapForecast
+  .wrapper.tiled
+  .forecast-container
+  .forecast-item
+  .temperature-container,
+.MMM-OpenWeatherMapForecast
+  .wrapper.tiled
+  .forecast-container
+  .forecast-item
+  .precipitation-container,
+.MMM-OpenWeatherMapForecast
+  .wrapper.tiled
+  .forecast-container
+  .forecast-item
+  .wind-container,
+.MMM-OpenWeatherMapForecast
+  .wrapper.tiled
+  .forecast-container
+  .forecast-item
+  .day-name {
   display: block;
   margin: auto;
 }
 
-.MMM-OpenWeatherMapForecast .wrapper.tiled .forecast-container .forecast-item .forecast-icon {
+.MMM-OpenWeatherMapForecast
+  .wrapper.tiled
+  .forecast-container
+  .forecast-item
+  .forecast-icon {
   width: 70px;
   height: 70px;
   margin: 4px auto;
 }
 
-.MMM-OpenWeatherMapForecast .wrapper.tiled .forecast-container .forecast-item .time,
-.MMM-OpenWeatherMapForecast .wrapper.tiled .forecast-container .forecast-item .day-name {
+.MMM-OpenWeatherMapForecast
+  .wrapper.tiled
+  .forecast-container
+  .forecast-item
+  .time,
+.MMM-OpenWeatherMapForecast
+  .wrapper.tiled
+  .forecast-container
+  .forecast-item
+  .day-name {
   font-size: 17px;
   text-transform: uppercase;
 }
 
-.MMM-OpenWeatherMapForecast .wrapper.tiled .forecast-container .forecast-item .wind-speed,
-.MMM-OpenWeatherMapForecast .wrapper.tiled .forecast-container .forecast-item .wind-gusts {
+.MMM-OpenWeatherMapForecast
+  .wrapper.tiled
+  .forecast-container
+  .forecast-item
+  .wind-speed,
+.MMM-OpenWeatherMapForecast
+  .wrapper.tiled
+  .forecast-container
+  .forecast-item
+  .wind-gusts {
   display: inline-block;
   white-space: nowrap;
 }
 
-.MMM-OpenWeatherMapForecast .wrapper.tiled .forecast-container .forecast-item .wind-gusts {
+.MMM-OpenWeatherMapForecast
+  .wrapper.tiled
+  .forecast-container
+  .forecast-item
+  .wind-gusts {
   display: block;
 }
 
-.MMM-OpenWeatherMapForecast .wrapper.tiled .forecast-container .forecast-item .temperature,
-.MMM-OpenWeatherMapForecast .wrapper.tiled .forecast-container .forecast-item .temperature-container {
+.MMM-OpenWeatherMapForecast
+  .wrapper.tiled
+  .forecast-container
+  .forecast-item
+  .temperature,
+.MMM-OpenWeatherMapForecast
+  .wrapper.tiled
+  .forecast-container
+  .forecast-item
+  .temperature-container {
   font-size: 22px;
   padding: 4px 0;
 }
 
-.MMM-OpenWeatherMapForecast .wrapper.tiled .forecast-container .forecast-item .precipitation-container,
-.MMM-OpenWeatherMapForecast .wrapper.tiled .forecast-container .forecast-item .wind-container {
+.MMM-OpenWeatherMapForecast
+  .wrapper.tiled
+  .forecast-container
+  .forecast-item
+  .precipitation-container,
+.MMM-OpenWeatherMapForecast
+  .wrapper.tiled
+  .forecast-container
+  .forecast-item
+  .wind-container {
   font-size: 17px;
   line-height: 1.5;
 }
@@ -197,18 +288,33 @@
   border-top: solid 1px #222;
 }
 
-.MMM-OpenWeatherMapForecast .wrapper.with-forecast-header.table .forecast-container > div:first-child,
+.MMM-OpenWeatherMapForecast
+  .wrapper.with-forecast-header.table
+  .forecast-container
+  > div:first-child,
 .MMM-OpenWeatherMapForecast .wrapper.table .forecast-container .header-row {
   border-top: none;
 }
 
-.MMM-OpenWeatherMapForecast .wrapper.table .forecast-container .header-row .date-time-header {
+.MMM-OpenWeatherMapForecast
+  .wrapper.table
+  .forecast-container
+  .header-row
+  .date-time-header {
   text-align: left;
   overflow: visible;
 }
 
-.MMM-OpenWeatherMapForecast .wrapper.table .forecast-container .forecast-item > span,
-.MMM-OpenWeatherMapForecast .wrapper.table .forecast-container .header-row > span {
+.MMM-OpenWeatherMapForecast
+  .wrapper.table
+  .forecast-container
+  .forecast-item
+  > span,
+.MMM-OpenWeatherMapForecast
+  .wrapper.table
+  .forecast-container
+  .header-row
+  > span {
   display: table-cell;
   font-size: 17px;
   text-align: center;
@@ -216,7 +322,11 @@
   height: 40px;
 }
 
-.MMM-OpenWeatherMapForecast .wrapper.table .forecast-container .header-row > span {
+.MMM-OpenWeatherMapForecast
+  .wrapper.table
+  .forecast-container
+  .header-row
+  > span {
   height: 32px;
   font-size: 14px;
   text-transform: uppercase;
@@ -224,29 +334,61 @@
   padding-bottom: 2px;
 }
 
-.MMM-OpenWeatherMapForecast .wrapper.table .forecast-container .forecast-item > span:first-child {
+.MMM-OpenWeatherMapForecast
+  .wrapper.table
+  .forecast-container
+  .forecast-item
+  > span:first-child {
   text-align: left;
 }
 
-.MMM-OpenWeatherMapForecast .wrapper.table .forecast-container .forecast-item > span:last-child {
+.MMM-OpenWeatherMapForecast
+  .wrapper.table
+  .forecast-container
+  .forecast-item
+  > span:last-child {
   text-align: right;
 }
 
-.MMM-OpenWeatherMapForecast .wrapper.table .forecast-container .forecast-item .forecast-icon {
+.MMM-OpenWeatherMapForecast
+  .wrapper.table
+  .forecast-container
+  .forecast-item
+  .forecast-icon {
   width: 30px;
   height: 30px;
   display: block;
   vertical-align: middle;
 }
 
-.MMM-OpenWeatherMapForecast .wrapper.table .forecast-container .forecast-item .time,
-.MMM-OpenWeatherMapForecast .wrapper.table .forecast-container .forecast-item .high-temperature,
-.MMM-OpenWeatherMapForecast .wrapper.table .forecast-container .forecast-item .low-temperature {
+.MMM-OpenWeatherMapForecast
+  .wrapper.table
+  .forecast-container
+  .forecast-item
+  .time,
+.MMM-OpenWeatherMapForecast
+  .wrapper.table
+  .forecast-container
+  .forecast-item
+  .high-temperature,
+.MMM-OpenWeatherMapForecast
+  .wrapper.table
+  .forecast-container
+  .forecast-item
+  .low-temperature {
   white-space: nowrap;
 }
 
-.MMM-OpenWeatherMapForecast .wrapper.table .forecast-container .forecast-item .wind-gusts,
-.MMM-OpenWeatherMapForecast .wrapper.table .forecast-container .forecast-item .accumulation {
+.MMM-OpenWeatherMapForecast
+  .wrapper.table
+  .forecast-container
+  .forecast-item
+  .wind-gusts,
+.MMM-OpenWeatherMapForecast
+  .wrapper.table
+  .forecast-container
+  .forecast-item
+  .accumulation {
   display: block;
   white-space: nowrap;
 }

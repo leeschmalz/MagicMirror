@@ -70,10 +70,10 @@ module.exports = NodeHelper.create({
 
 	// Helper function to filter results by current month
 	filterByCurrentMonth(results) {
-		const currentMonth = new Date().getMonth();
+		const currentMonth = new Date().getFullYear();
 		return results.filter((result) => {
 			const resultDate = new Date(`${result.date}${CONFIG.TIMEZONE_OFFSET}`);
-			return resultDate.getMonth() === currentMonth;
+			return resultDate.getFullYear() === currentMonth;
 		});
 	},
 

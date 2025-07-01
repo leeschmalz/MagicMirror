@@ -36,7 +36,13 @@ let config = {
 	//   starts serveronly and then starts chrome browser
 	// false, default for all NON-armv6l devices
 	// true, force serveronly mode, because you want to.. no UI on this device
-
+	electronOptions: {
+        	webPreferences: {
+        		nodeIntegration: true,
+        	},
+        	fullscreen: true,
+        	rotate: 90
+    	},
 	modules: [
 		{
 			module: "alert",
@@ -173,14 +179,15 @@ let config = {
 			module: "MMM-cryptocurrency",
 			position: "bottom_left",
 			config: {
-				apikey: 'ca8e85bb-b517-46b1-867e-d87c14765b49',
-				apiDelay: 1,
+				apikey: '097fbd21-774e-46d2-8368-ee0f475efc7b',
+				apiDelay: 5,
 				currency: ['bitcoin', 'ethereum', 'xrp'],
 				conversion: 'USD',
 				headers: ['change24h', 'change7d'],
 				displayType: 'logo',
 				showGraphs: true,
-				maximumFractionDigits: [0,2,0] // these are out of order for whatever reason: btc, xrp, eth
+				maximumFractionDigits: [0,2,0], // these are out of order for whatever reason: btc, xrp, eth
+				style: 'decimal'
 			}
 		},
 		{
@@ -189,8 +196,8 @@ let config = {
 			config: {
 			timeFormat: "DD-MM HH:mm",
 			width: 60,
-			symbols : ["MSTR","COIN","NVDA","GC=F","^GSPC"],
-			alias : ["MSTR","COIN","NVDA","GOLD","S&P500"],
+			symbols : ["MSTR","SMLR","GME","GC=F","^GSPC"],
+			alias : ["MSTR","SMLR","GME","GOLD","S&P500"],
 			tickerDuration: 20,
 			chartDays: 90,
 			maxTableRows: null,

@@ -287,7 +287,7 @@ Module.register("MMM-cryptocurrency", {
 			maximumFractionDigits: Array.isArray(this.config.maximumFractionDigits) ? this.config.maximumFractionDigits[index] : 2
 		};
 
-		apiResult["price"] = price.toLocaleString(this.config.language, options);
+		apiResult["price"] = price.toLocaleString(this.config.language, options).replace("US", "");
 		return apiResult;
 	},
 

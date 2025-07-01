@@ -134,10 +134,10 @@ Module.register("MMM-Goals", {
 			var wl = payload.wl;
 
 			// ccspend.refresh(cc, 2300);
-			drinksconsumed.refresh(drinks, 30);
-			pagesread.refresh(pages, 334);
-			milesrun.refresh(miles, 100);
-			weightlifting.refresh(wl, 9);
+			drinksconsumed.refresh(drinks, 365);
+			pagesread.refresh(pages, 3650);
+			milesrun.refresh(miles, 1000);
+			weightlifting.refresh(wl, 108);
 		}
 	},
 
